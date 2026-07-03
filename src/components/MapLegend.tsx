@@ -4,56 +4,56 @@ import "./MapLegend.css";
 const MapLegend = () => {
   const legendItems = [
     {
-      type: 'Primary Health Center (PHC)',
+      type: 'Primary Health Center',
       color: '#2563eb',
       Icon: Stethoscope,
-      description: 'Standard medical care hub'
+      description: 'Frontline outpatient and routine care'
       },
     {
-      type: 'Secondary Health Facilities',
+      type: 'Secondary Health Facility',
       color: '#dc2626',
       Icon: Hospital,
-      description: 'Inpatient beds, surgeries, tertiary labs'
+      description: 'Higher-acuity care and inpatient services'
     },
     {
-      type: 'Health Post (HP)',
+      type: 'Health Post',
       color: '#16a34a',
       Icon: Activity,
-      description: 'Community-level neighborhood post'
+      description: 'Community-level access point'
     },
     {
-      type: 'Other Specialised Clinic',
+      type: 'Specialized Clinic',
       color: '#ea580c',
       Icon: Pill,
-      description: 'Focused centers (NCD, mental health)'
+      description: 'Targeted services such as NCD or specialty care'
     },
   ];
 
   return (
     <div className="legend-container">
-    <h4 className="legend-title">Facility Types</h4>
+      <div className="legend-header">
+        <p className="legend-kicker">Map key</p>
+        <h4 className="legend-title">Facility types</h4>
+      </div>
 
-    <div className="legend-list">
+      <div className="legend-list">
         {legendItems.map((item, index) => {
-        const { Icon } = item;
+          const { Icon } = item;
 
-        return (
+          return (
             <div key={index} className="legend-item">
-            <div
-                className="icon-badge"
-                style={{ backgroundColor: item.color }}
-            >
+              <div className="icon-badge" style={{ backgroundColor: item.color }}>
                 <Icon size={14} color="white" />
-            </div>
+              </div>
 
-            <div>
+              <div>
                 <span className="label-text">{item.type}</span>
                 <p className="label-subtext">{item.description}</p>
+              </div>
             </div>
-            </div>
-        );
+          );
         })}
-    </div>
+      </div>
     </div>
   );
 };

@@ -1,10 +1,10 @@
-import { Marker, Popup, TileLayer, MapContainer } from "react-leaflet";
+import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import ReferralDataMarkers from "../data/referral_data.json";
 import FacilityPopup from "./FacilityPopup";
 import type { FacilityRecord, FacilityType, Blank } from "./FacilityPopup";
-import { renderToStaticMarkup } from 'react-dom/server';
-import { Stethoscope, Activity, Hospital, Pill } from 'lucide-react';
+import { renderToStaticMarkup } from "react-dom/server";
+import { Activity, Hospital, Pill, Stethoscope } from "lucide-react";
 import * as L from "leaflet";
 import MapLegend from "./MapLegend";
 
@@ -21,7 +21,7 @@ const getMarkerStyle = (type: FacilityType | Blank) => {
   }
 };
 
-export const createCustomIcon = (facilityType: FacilityType | Blank) => {
+const createCustomIcon = (facilityType: FacilityType | Blank) => {
   const { color, Icon } = getMarkerStyle(facilityType);
 
   const iconHtml = renderToStaticMarkup(
@@ -43,7 +43,7 @@ export const createCustomIcon = (facilityType: FacilityType | Blank) => {
 
   return L.divIcon({
     html: iconHtml,
-    className: 'custom-marker-pin', // custom class name to reset default styles
+    className: "custom-marker-pin",
     iconSize: [36, 36],
     iconAnchor: [18, 18],
     popupAnchor: [0, -18]
@@ -52,9 +52,14 @@ export const createCustomIcon = (facilityType: FacilityType | Blank) => {
 
 const ReferralMap = () => {
   return (
-    <MapContainer center={[21.1945, 92.151564]} zoom={14.5}>
+    <MapContainer
+      center={[21.1945, 92.151564]}
+      zoom={14.5}
+      scrollWheelZoom={false}
+      className="referral-map"
+    >
       <TileLayer
-        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Tiles style by <a href="https://www.hotosm.org/" target="_blank">Humanitarian OpenStreetMap Team</a>'
+        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, tiles courtesy of <a href="https://www.hotosm.org/" target="_blank" rel="noreferrer">Humanitarian OpenStreetMap Team</a>'
         url="https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png"
       />
       {(ReferralDataMarkers as FacilityRecord[]).map((markerData, index) => {
@@ -73,7 +78,7 @@ const ReferralMap = () => {
           </Marker>
         );
       })}
-    <MapLegend />
+      <MapLegend />
     </MapContainer>
   );
 };

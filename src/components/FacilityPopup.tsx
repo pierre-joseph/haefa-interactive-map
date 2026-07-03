@@ -111,6 +111,12 @@ const formatBeds = (value: string | number | undefined) => {
   return String(value);
 };
 
+const getRiskClass = (value: YesNo | "( )" | Blank) => {
+  if (value === "Yes") return "is-unavailable";
+  if (value === "No") return "is-available";
+  return "is-unsure";
+};
+
 const FacilityPopup = ({ facility }: FacilityPopupProps) => {
   const [activeTab, setActiveTab] = useState<"overview" | "services" | "capacity">("overview");
 
@@ -133,7 +139,9 @@ const FacilityPopup = ({ facility }: FacilityPopupProps) => {
           <span className={`fpop__pill ${statusMeta.className}`}>{formatValue(facility.Status)}</span>
         </div>
         <h3 className="fpop__title">{formatValue(facility["Facility Name"])}</h3>
-        <p className="fpop__subtitle">{formatValue(facility["Facility Type"])}</p>
+        <p className="fpop__subtitle">
+          {formatValue(facility["Facility Type"])} · {formatValue(facility["Implementing Agency"])}
+        </p>
       </div>
 
       {services.length > 0 && (
@@ -188,6 +196,16 @@ const FacilityPopup = ({ facility }: FacilityPopupProps) => {
             <div>
               <dt>Camp</dt>
               <dd>{formatValue(facility["Camp Name"])}</dd>
+            </div>
+            <div>
+              <dt>Block</dt>
+              <dd>{formatValue(facility["Block Name"])}</dd>
+            </div>
+            <div>
+              <dt>Coordinates</dt>
+              <dd>
+                {formatValue(facility.Latitude)}, {formatValue(facility.Longitude)}
+              </dd>
             </div>
             <div>
               <dt>Structure</dt>
@@ -249,7 +267,7 @@ const FacilityPopup = ({ facility }: FacilityPopupProps) => {
             <div>
               <dt>Flood risk</dt>
               <dd>
-                <span className={`fpop__tag ${facility.RiskFlood === "Yes" ? "is-unavailable" : "is-available"}`}>
+                <span className={`fpop__tag ${getRiskClass(facility.RiskFlood)}`}>
                   {formatValue(facility.RiskFlood)}
                 </span>
               </dd>
@@ -257,7 +275,7 @@ const FacilityPopup = ({ facility }: FacilityPopupProps) => {
             <div>
               <dt>Land risk</dt>
               <dd>
-                <span className={`fpop__tag ${facility.RiskLand === "Yes" ? "is-unavailable" : "is-available"}`}>
+                <span className={`fpop__tag ${getRiskClass(facility.RiskLand)}`}>
                   {formatValue(facility.RiskLand)}
                 </span>
               </dd>
