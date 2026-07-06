@@ -1,6 +1,6 @@
 # HAEFA Interactive Referral Map
 
-This is a React + TypeScript app for exploring healthcare referral facilities in the Kutupalong-Balukhali megacamp region. It turns a facility dataset into an interactive map so users can quickly understand what services exist, where they are located, and how they differ by type, agency, camp, and specialty coverage. This React app can be found on the web at this [link](haefa-interactive-map.vercel.app). 
+This is a React + TypeScript app for exploring healthcare referral facilities in the Kutupalong-Balukhali megacamp region. It turns a facility dataset into an interactive map so users can quickly understand what services exist, where they are located, and how they differ by type, agency, camp, and specialty coverage.  
 
 ## What the app does
 
