@@ -7,6 +7,8 @@ import { renderToStaticMarkup } from "react-dom/server";
 import { Activity, Hospital, Pill, Stethoscope } from "lucide-react";
 import * as L from "leaflet";
 import MapLegend from "./MapLegend";
+import { useMemo, useState } from "react";
+import FilterPanel from "./FilterPanel";
 
 const getMarkerStyle = (type: FacilityType | Blank) => {
   switch (type) {
@@ -50,36 +52,100 @@ const createCustomIcon = (facilityType: FacilityType | Blank) => {
   });
 };
 
+const initialFilters = {
+  query: "",
+  names: [] as string[],
+  types: [] as string[],
+  services: [] as string[],
+  camps: [] as string[],
+  agencies: [] as string[],
+};
+
+const matchesQuery = (facility: FacilityRecord, q: string) => {
+  if (!q) return true;
+  const lq = q.trim().toLowerCase();
+  const keys = ["Facility Name", "Implementing Agency", "Facility Type", "Camp Name"] as const;
+  return keys.some((k) => {
+    const v = facility[k];
+    return v !== undefined && String(v).toLowerCase().includes(lq);
+  });
+};
+
+const hasTypes = (facility: FacilityRecord, types: string[]) => {
+  if (!types || types.length === 0) return true;
+  return types.includes(facility["Facility Type"] as string);
+};
+
+const hasNames = (facility: FacilityRecord, names: string[]) => {
+  if (!names || names.length === 0) return true;
+  return names.includes(facility["Facility Name"] as string);
+};
+
+const hasAgencies = (facility: FacilityRecord, agencies: string[]) => {
+  if (!agencies || agencies.length === 0) return true;
+  return agencies.includes(facility["Implementing Agency"] as string);
+};
+
+
+const hasServices = (facility: FacilityRecord, services: string[]) => {
+  if (!services || services.length === 0) return true;
+  return services.every((s) => facility[s as keyof FacilityRecord] === "Available");
+};
+
+const matchesLocation = (facility: FacilityRecord, camps: string[]) => {
+  if (camps && camps.length > 0 && !camps.includes(String(facility["Camp Name"] ?? ""))) return false;
+  return true;
+};
+
 const ReferralMap = () => {
+  const [filters, setFilters] = useState(initialFilters);
+
+  const facilities = ReferralDataMarkers as FacilityRecord[];
+
+  const filteredFacilities = useMemo(() => {
+    return facilities.filter((f) => {
+      if (!matchesQuery(f, filters.query)) return false;
+      if (!hasTypes(f, filters.types)) return false;
+      if (!matchesLocation(f, filters.camps)) return false;
+      if (!hasServices(f, filters.services)) return false;
+      if (!hasNames(f, filters.names)) return false;
+      if (!hasAgencies(f, filters.agencies)) return false;
+      const latitude = Number(f.Latitude);
+      const longitude = Number(f.Longitude);
+      if (!Number.isFinite(latitude) || !Number.isFinite(longitude)) return false;
+      return true;
+    });
+  }, [facilities, filters]);
+
   return (
-    <MapContainer
-      center={[21.1945, 92.151564]}
-      zoom={14.5}
-      scrollWheelZoom={false}
-      className="referral-map"
-    >
-      <TileLayer
-        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, tiles courtesy of <a href="https://www.hotosm.org/" target="_blank" rel="noreferrer">Humanitarian OpenStreetMap Team</a>'
-        url="https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png"
-      />
-      {(ReferralDataMarkers as FacilityRecord[]).map((markerData, index) => {
-        const latitude = Number(markerData.Latitude);
-        const longitude = Number(markerData.Longitude);
+    <div className="referral-map__wrap">
+      <FilterPanel facilities={facilities} filters={filters} onChange={setFilters} />
 
-        if (!Number.isFinite(latitude) || !Number.isFinite(longitude)) {
-          return null;
-        }
+      <MapContainer
+        center={[21.1945, 92.151564]}
+        zoom={14.5}
+        scrollWheelZoom={false}
+        className="referral-map"
+      >
+        <TileLayer
+          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, tiles courtesy of <a href="https://www.hotosm.org/" target="_blank" rel="noreferrer">Humanitarian OpenStreetMap Team</a>'
+          url="https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png"
+        />
+        {filteredFacilities.map((markerData, index) => {
+          const latitude = Number(markerData.Latitude);
+          const longitude = Number(markerData.Longitude);
 
-        return (
-          <Marker key={`${markerData["Facility Name"] || "facility"}-${index}`} position={[latitude, longitude]} icon={createCustomIcon(markerData["Facility Type"])}>
-            <Popup>
-              <FacilityPopup facility={markerData} />
-            </Popup>
-          </Marker>
-        );
-      })}
-      <MapLegend />
-    </MapContainer>
+          return (
+            <Marker key={`${markerData["Facility Name"] || "facility"}-${index}`} position={[latitude, longitude]} icon={createCustomIcon(markerData["Facility Type"]) }>
+              <Popup>
+                <FacilityPopup facility={markerData} />
+              </Popup>
+            </Marker>
+          );
+        })}
+        <MapLegend />
+      </MapContainer>
+    </div>
   );
 };
 

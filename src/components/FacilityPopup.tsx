@@ -53,7 +53,7 @@ type FacilityPopupProps = {
   facility: FacilityRecord;
 };
 
-const serviceFields = [
+export const serviceFields = [
   { key: "Tuberculosis", label: "TB services" },
   { key: "Basic_Lab", label: "Basic lab" },
   { key: "Basic_X_Ray", label: "X-ray" },
@@ -75,7 +75,9 @@ const serviceFields = [
   { key: "Outpatient_Rehab", label: "Rehabilitation" },
   { key: "Prosthetics_Orthotics", label: "Prosthetics/orthotics" },
   { key: "BEmOC", label: "BEmOC" },
-] as const;
+];
+
+serviceFields.sort((a: { label: string }, b: { label: string }) => a.label.localeCompare(b.label));
 
 // Sort order + visual treatment for each specialty response.
 const RESPONSE_RANK: Record<SpecialtyResponse, number> = {

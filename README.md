@@ -1,75 +1,87 @@
-# React + TypeScript + Vite
+# HAEFA Interactive Referral Map
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React + TypeScript app for exploring healthcare referral facilities in the Kutupalong-Balukhali megacamp region. It turns a facility dataset into an interactive map so users can quickly understand what services exist, where they are located, and how they differ by type, agency, camp, and specialty coverage. This React app can be found on the web at this [link](haefa-interactive-map.vercel.app). You can also click here to learn more about [Health and Education for All (HAEFA)](haefa.org). 
 
-Currently, two official plugins are available:
+## What the app does
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The homepage introduces HAEFA and then presents a full-screen Leaflet map centered on the refugee settlement area. Each facility in the dataset is rendered as a custom marker, and each marker opens a detailed popup with facility metadata and service availability.
 
-## React Compiler
+The map can be narrowed with a filter panel that supports:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- free-text search across facility name, agency, type, and camp
+- filtering by facility name
+- filtering by implementing agency
+- filtering by facility type
+- filtering by camp
+- filtering by service availability
 
-## Expanding the ESLint configuration
+The popup for each facility is organized into tabs so people can inspect:
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- an overview of the facility and its location
+- capacity and risk indicators
+- specialty services and referral-related capabilities
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Why it exists
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+This app is meant to support referral coordination and care planning. In a setting with many facilities, overlapping services, and limited capacity, a simple list is not enough. The map gives staff and coordinators a faster way to answer questions like:
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- Which facilities are in this camp?
+- Which sites offer a particular service?
+- What facility type or implementing agency is responsible here?
+- Which locations have capacity or risks that matter for referral decisions?
 
+The visual map plus service filters help reduce search time and make it easier to compare facilities before sending a patient or coordinating care.
+
+## How it works
+
+The app is built around a single data file at [src/data/referral_data.json](src/data/referral_data.json). That JSON is loaded into the map layer and treated as the source of truth for facility records.
+
+At runtime, the app:
+
+1. Loads the facility dataset.
+2. Builds filter options from the available values in the data.
+3. Applies the selected filters in memory.
+4. Renders only the matching facilities as markers.
+5. Uses custom marker icons to visually distinguish facility types.
+6. Opens a popup with structured facility details when a marker is selected.
+
+The main UI is composed of these pieces:
+
+- [src/components/App.tsx](src/components/App.tsx) provides the page shell and intro copy.
+- [src/components/ReferralMap.tsx](src/components/ReferralMap.tsx) owns the map, marker rendering, and filter logic.
+- [src/components/FilterPanel.tsx](src/components/FilterPanel.tsx) exposes the search and checkbox filters.
+- [src/components/FacilityPopup.tsx](src/components/FacilityPopup.tsx) formats facility details for the popup.
+- [src/components/MapLegend.tsx](src/components/MapLegend.tsx) explains the marker colors and facility types.
+
+The map itself uses OpenStreetMap tiles via the HOT tile layer, and marker icons are created with `leaflet`, `react-leaflet`, and `lucide-react`.
+
+## Getting started
+
+Install dependencies and start the local dev server:
+
+```bash
+npm install
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Open the URL printed by Vite in your browser.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### Other scripts
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- `npm run build` compiles the app and produces a production bundle.
+- `npm run lint` runs ESLint across the project.
+- `npm run preview` serves the production build locally.
 
+## Project structure
+
+```text
+src/
+  components/      React UI and map logic
+  data/            Facility dataset used by the map
+  index.css        Global styles
+  main.tsx         Application entrypoint
 ```
+
+## Notes
+
+The app assumes the facility dataset contains coordinates and the service fields used by the filter and popup views. Records without valid latitude and longitude are excluded from the map.

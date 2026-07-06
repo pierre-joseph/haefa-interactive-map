@@ -2,8 +2,8 @@
   {
     "Facility ID": 1,
     "Facility Name": "PHC-1",
-    "Implementing Agency": "BRAC",
-    "Camp Name": "Camp 1E",
+    "Implementing Agency": "BRAC - Bangladesh Rural Advancement Committee",
+    "Camp Name": "Camp 01E",
     "Block Name": "C01E_B",
     "Facility Type": "Primary Health Center",
     "Longitude": 92.151564,
@@ -37,12 +37,13 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Available"
+    "BEmOC": "Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": 8,
     "Facility Name": "PHC",
-    "Implementing Agency": "BRAC  -  Bangladesh Rural Advancement Committee",
+    "Implementing Agency": "BRAC - Bangladesh Rural Advancement Committee",
     "Camp Name": "Camp 01W",
     "Block Name": "C01W_E",
     "Facility Type": "Primary Health Center",
@@ -77,12 +78,13 @@
     "NCD_Clinic": "Not Normally Available",
     "Outpatient_Rehab": "Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Available"
+    "BEmOC": "Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": 22,
     "Facility Name": "SRH",
-    "Implementing Agency": "RTMI  -  Research, Training & Management International",
+    "Implementing Agency": "RTMI - Research, Training & Management International",
     "Camp Name": "Camp 02W",
     "Block Name": "C02W_B",
     "Facility Type": "Primary Health Center",
@@ -94,35 +96,36 @@
     "Target Population": "",
     "RiskLand": "",
     "RiskFlood": "",
-    "Number of Inpatient Beds": "",
-    "Intensive Care Unit (ICU) beds": "",
-    "Number of Maternity Beds": "",
-    "Tuberculosis": "",
-    "Basic_Lab": "",
-    "Basic_X_Ray": "",
-    "Hemodialysis_Unit": "",
-    "Lab_Secondary": "",
-    "Lab_Tertiary": "",
-    "Outpatient_Secondary": "",
-    "Outpatient_Primary": "",
-    "Radiology_Unit": "",
-    "Referral_Acceptance_and_Capacity": "",
-    "WHO_Basic_Emergency": "",
-    "Antenatal_Care": "",
-    "Asthma_COPD": "",
-    "CVD_Risk_Assessment": "",
-    "Diabetes": "",
-    "Hypertension": "",
-    "Inpatient_Acute_Rehab": "",
-    "NCD_Clinic": "",
-    "Outpatient_Rehab": "",
-    "Prosthetics_Orthotics": "",
-    "BEmOC": ""
+    "Number of Inpatient Beds": 10,
+    "Intensive Care Unit (ICU) beds": "Not normally provided",
+    "Number of Maternity Beds": 3,
+    "Tuberculosis": "Partially Available",
+    "Basic_Lab": "Not Normally Available",
+    "Basic_X_Ray": "Not Normally Available",
+    "Hemodialysis_Unit": "Not Normally Available",
+    "Lab_Secondary": "Available",
+    "Lab_Tertiary": "Not Normally Available",
+    "Outpatient_Secondary": "Available",
+    "Outpatient_Primary": "Available",
+    "Radiology_Unit": "Not Normally Available",
+    "Referral_Acceptance_and_Capacity": "Available",
+    "WHO_Basic_Emergency": "Partially Available",
+    "Antenatal_Care": "Available",
+    "Asthma_COPD": "Available",
+    "CVD_Risk_Assessment": "Available",
+    "Diabetes": "Available",
+    "Hypertension": "Available",
+    "Inpatient_Acute_Rehab": "Not Normally Available",
+    "NCD_Clinic": "Available",
+    "Outpatient_Rehab": "Not Normally Available",
+    "Prosthetics_Orthotics": "Not Normally Available",
+    "BEmOC": "Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "HF_294",
     "Facility Name": "MOHFW/BDRCS/SRC/IRC/IOM-294",
-    "Implementing Agency": "(BDRC - Bangladesh Development Research Center)",
+    "Implementing Agency": "BDRC - Bangladesh Development Research Center",
     "Camp Name": "Camp 02W",
     "Block Name": "C02W_A",
     "Facility Type": "Primary Health Center",
@@ -134,35 +137,36 @@
     "Target Population": "Refugee",
     "RiskLand": "No",
     "RiskFlood": "Yes",
-    "Number of Inpatient Beds": "",
-    "Intensive Care Unit (ICU) beds": "",
-    "Number of Maternity Beds": "",
-    "Tuberculosis": "",
-    "Basic_Lab": "",
-    "Basic_X_Ray": "",
-    "Hemodialysis_Unit": "",
-    "Lab_Secondary": "",
-    "Lab_Tertiary": "",
-    "Outpatient_Secondary": "",
-    "Outpatient_Primary": "",
-    "Radiology_Unit": "",
-    "Referral_Acceptance_and_Capacity": "",
-    "WHO_Basic_Emergency": "",
-    "Antenatal_Care": "",
-    "Asthma_COPD": "",
-    "CVD_Risk_Assessment": "",
-    "Diabetes": "",
-    "Hypertension": "",
-    "Inpatient_Acute_Rehab": "",
-    "NCD_Clinic": "",
-    "Outpatient_Rehab": "",
-    "Prosthetics_Orthotics": "",
-    "BEmOC": ""
+    "Number of Inpatient Beds": 8,
+    "Intensive Care Unit (ICU) beds": "Not normally provided",
+    "Number of Maternity Beds": 2,
+    "Tuberculosis": "Available",
+    "Basic_Lab": "Available",
+    "Basic_X_Ray": "Not Normally Available",
+    "Hemodialysis_Unit": "Available",
+    "Lab_Secondary": "Not Normally Available",
+    "Lab_Tertiary": "Not Normally Available",
+    "Outpatient_Secondary": "Available",
+    "Outpatient_Primary": "Available",
+    "Radiology_Unit": "Unsure",
+    "Referral_Acceptance_and_Capacity": "Available",
+    "WHO_Basic_Emergency": "Partially Available",
+    "Antenatal_Care": "Available",
+    "Asthma_COPD": "Available",
+    "CVD_Risk_Assessment": "Available",
+    "Diabetes": "Available",
+    "Hypertension": "Available",
+    "Inpatient_Acute_Rehab": "Not Normally Available",
+    "NCD_Clinic": "Available",
+    "Outpatient_Rehab": "Not Normally Available",
+    "Prosthetics_Orthotics": "Not Normally Available",
+    "BEmOC": "Partially Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "HF_023",
     "Facility Name": "IOM/Ipas/FKRF-023",
-    "Implementing Agency": "(IOM - International Organization for Migration)",
+    "Implementing Agency": "IOM - International Organization for Migration",
     "Camp Name": "Camp 02W",
     "Block Name": "C02W_C",
     "Facility Type": "Primary Health Center",
@@ -197,7 +201,8 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Available"
+    "BEmOC": "Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "HF_022",
@@ -237,12 +242,13 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Available"
+    "BEmOC": "Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "UID-028",
     "Facility Name": "GK Health Cere Center",
-    "Implementing Agency": "GK  -  Gonoshasthaya Kendra",
+    "Implementing Agency": "GK - Gonoshasthaya Kendra",
     "Camp Name": "Camp 03",
     "Block Name": "C03_C",
     "Facility Type": "Primary Health Center",
@@ -277,12 +283,13 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Available"
+    "BEmOC": "Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "No ID",
     "Facility Name": "IOM Modhuchara PHCC",
-    "Implementing Agency": "(IOM)",
+    "Implementing Agency": "IOM - International Organization for Migration",
     "Camp Name": "Camp 03",
     "Block Name": "C03_A",
     "Facility Type": "Primary Health Center",
@@ -317,12 +324,13 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Partially Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Available"
+    "BEmOC": "Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "HF_043",
     "Facility Name": "GK/RTMI/Ipas/UNHCR/UNFPA-043",
-    "Implementing Agency": "(RTMI - Research, Training & Management International)",
+    "Implementing Agency": "RTMI - Research, Training & Management International",
     "Camp Name": "Camp 04",
     "Block Name": "C04_C",
     "Facility Type": "Primary Health Center",
@@ -334,35 +342,36 @@
     "Target Population": "Both",
     "RiskLand": "No",
     "RiskFlood": "No",
-    "Number of Inpatient Beds": "",
-    "Intensive Care Unit (ICU) beds": "",
-    "Number of Maternity Beds": "",
-    "Tuberculosis": "",
-    "Basic_Lab": "",
-    "Basic_X_Ray": "",
-    "Hemodialysis_Unit": "",
-    "Lab_Secondary": "",
-    "Lab_Tertiary": "",
-    "Outpatient_Secondary": "",
-    "Outpatient_Primary": "",
-    "Radiology_Unit": "",
-    "Referral_Acceptance_and_Capacity": "",
-    "WHO_Basic_Emergency": "",
-    "Antenatal_Care": "",
-    "Asthma_COPD": "",
-    "CVD_Risk_Assessment": "",
-    "Diabetes": "",
-    "Hypertension": "",
-    "Inpatient_Acute_Rehab": "",
-    "NCD_Clinic": "",
-    "Outpatient_Rehab": "",
-    "Prosthetics_Orthotics": "",
-    "BEmOC": ""
+    "Number of Inpatient Beds": 13,
+    "Intensive Care Unit (ICU) beds": "Not normally provided",
+    "Number of Maternity Beds": 2,
+    "Tuberculosis": "Not Normally Available",
+    "Basic_Lab": "Available",
+    "Basic_X_Ray": "Not Normally Available",
+    "Hemodialysis_Unit": "Not Normally Available",
+    "Lab_Secondary": "Not Normally Available",
+    "Lab_Tertiary": "Not Normally Available",
+    "Outpatient_Secondary": "Available",
+    "Outpatient_Primary": "Available",
+    "Radiology_Unit": "Unsure",
+    "Referral_Acceptance_and_Capacity": "Available",
+    "WHO_Basic_Emergency": "Partially Available",
+    "Antenatal_Care": "Available",
+    "Asthma_COPD": "Available",
+    "CVD_Risk_Assessment": "Available",
+    "Diabetes": "Available",
+    "Hypertension": "Available",
+    "Inpatient_Acute_Rehab": "Not Normally Available",
+    "NCD_Clinic": "Available",
+    "Outpatient_Rehab": "Not Normally Available",
+    "Prosthetics_Orthotics": "Not Normally Available",
+    "BEmOC": "Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "N/A",
     "Facility Name": "IRC",
-    "Implementing Agency": "IRC  -  International Rescue Committee",
+    "Implementing Agency": "IRC - International Rescue Committee",
     "Camp Name": "Camp 04",
     "Block Name": "C04_C",
     "Facility Type": "Primary Health Center",
@@ -397,12 +406,13 @@
     "NCD_Clinic": "",
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
-    "BEmOC": ""
+    "BEmOC": "",
+    "Image(s)": ""
   },
   {
     "Facility ID": "HF_043",
     "Facility Name": "GK/RTNI/IPAS/UNHRC/UNFPA-043",
-    "Implementing Agency": "RTMI  -  Research, Training & Management International",
+    "Implementing Agency": "RTMI - Research, Training & Management International",
     "Camp Name": "Camp 04",
     "Block Name": "C04_C",
     "Facility Type": "Primary Health Center",
@@ -437,12 +447,13 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Available"
+    "BEmOC": "Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": 208,
     "Facility Name": "GK RTMI PHC",
-    "Implementing Agency": "RTMI  -  Research, Training & Management International",
+    "Implementing Agency": "RTMI - Research, Training & Management International",
     "Camp Name": "Camp 04 Extension",
     "Block Name": "C04X_C",
     "Facility Type": "Primary Health Center",
@@ -477,12 +488,13 @@
     "NCD_Clinic": "",
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
-    "BEmOC": ""
+    "BEmOC": "",
+    "Image(s)": ""
   },
   {
     "Facility ID": "HF_208",
     "Facility Name": "GK Primary Health Center (PHC)",
-    "Implementing Agency": "(GK - Gonoshasthaya Kendra)",
+    "Implementing Agency": "GK - Gonoshasthaya Kendra",
     "Camp Name": "Camp 04 Extension",
     "Block Name": "C04X_C",
     "Facility Type": "Primary Health Center",
@@ -517,7 +529,8 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Available"
+    "BEmOC": "Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": 48,
@@ -557,12 +570,13 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Available"
+    "BEmOC": "Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "HF_046",
     "Facility Name": "RTMI/UNICEF-046",
-    "Implementing Agency": "(RTMI - Research, Training & Management International)",
+    "Implementing Agency": "RTMI - Research, Training & Management International",
     "Camp Name": "Camp 05",
     "Block Name": "C05_E",
     "Facility Type": "Primary Health Center",
@@ -597,12 +611,13 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Available"
+    "BEmOC": "Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "HF_403",
     "Facility Name": "MOHFW/BDRCS/SRC/IRC- 403",
-    "Implementing Agency": "(BDRC - Bangladesh Development Research Center)",
+    "Implementing Agency": "BRAC - Bangladesh Rural Advancement Committee",
     "Camp Name": "Camp 06",
     "Block Name": "C06_A",
     "Facility Type": "Primary Health Center",
@@ -637,12 +652,13 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Available"
+    "BEmOC": "Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "PHC_451",
     "Facility Name": "Friendship/IOM-451",
-    "Implementing Agency": "(FRIENDSHIP)",
+    "Implementing Agency": "Friendship",
     "Camp Name": "Camp 07",
     "Block Name": "C07_F",
     "Facility Type": "Primary Health Center",
@@ -677,7 +693,8 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Available",
     "Prosthetics_Orthotics": "Available",
-    "BEmOC": "Available"
+    "BEmOC": "Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "HF_065",
@@ -717,12 +734,13 @@
     "NCD_Clinic": "Partially Available",
     "Outpatient_Rehab": "Partially Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Available"
+    "BEmOC": "Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "HF_452",
     "Facility Name": "Friendship/IOM-452",
-    "Implementing Agency": "FRIENDSHIP",
+    "Implementing Agency": "Friendship",
     "Camp Name": "Camp 08E",
     "Block Name": "C08E_F",
     "Facility Type": "Primary Health Center",
@@ -757,12 +775,13 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Available"
+    "BEmOC": "Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "ID066",
     "Facility Name": "Primary Health care",
-    "Implementing Agency": "BRAC",
+    "Implementing Agency": "BRAC - Bangladesh Rural Advancement Committee",
     "Camp Name": "Camp 08E",
     "Block Name": "C08E_C",
     "Facility Type": "Primary Health Center",
@@ -797,12 +816,13 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Available"
+    "BEmOC": "Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": 68,
     "Facility Name": "MSF HOSPITAL",
-    "Implementing Agency": "MSF",
+    "Implementing Agency": "MSF - Medecins Sans Frontieres",
     "Camp Name": "Camp 08W",
     "Block Name": "C08W_F",
     "Facility Type": "Primary Health Center",
@@ -837,12 +857,13 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Not Normally Available"
+    "BEmOC": "Not Normally Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": 71,
     "Facility Name": "PHD PCC-1",
-    "Implementing Agency": "PHD",
+    "Implementing Agency": "PHD - Partners in Health Development",
     "Camp Name": "Camp 08W",
     "Block Name": "C08W_B",
     "Facility Type": "Primary Health Center",
@@ -877,12 +898,13 @@
     "NCD_Clinic": "Partially Available",
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Available"
+    "BEmOC": "Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": 93,
     "Facility Name": "Primary Health Center",
-    "Implementing Agency": "IOM  -  International Organization for Migration",
+    "Implementing Agency": "IOM - International Organization for Migration",
     "Camp Name": "Camp 09",
     "Block Name": "C09_A",
     "Facility Type": "Primary Health Center",
@@ -917,7 +939,8 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Available"
+    "BEmOC": "Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "HF_096",
@@ -957,7 +980,8 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Available"
+    "BEmOC": "Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "HF_107",
@@ -997,12 +1021,13 @@
     "NCD_Clinic": "",
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
-    "BEmOC": ""
+    "BEmOC": "",
+    "Image(s)": ""
   },
   {
     "Facility ID": "NS-INF-011-CEF-WCM-23",
     "Facility Name": "Primary Health Care Centre",
-    "Implementing Agency": "IRC  -  International Rescue Committee",
+    "Implementing Agency": "IRC - International Rescue Committee",
     "Camp Name": "Camp 11",
     "Block Name": "C11_B",
     "Facility Type": "Primary Health Center",
@@ -1037,7 +1062,8 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Available"
+    "BEmOC": "Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "no",
@@ -1077,12 +1103,13 @@
     "NCD_Clinic": "",
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
-    "BEmOC": ""
+    "BEmOC": "",
+    "Image(s)": ""
   },
   {
     "Facility ID": "HF_115",
     "Facility Name": "Sundor place primary health centre.",
-    "Implementing Agency": "UNHCR  -  United Nations High Commissioner for Refugees",
+    "Implementing Agency": "UNHCR - United Nations High Commissioner for Refugees",
     "Camp Name": "Camp 12",
     "Block Name": "C12_A",
     "Facility Type": "Primary Health Center",
@@ -1117,12 +1144,13 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Available"
+    "BEmOC": "Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "ID-127",
     "Facility Name": "Primary Health Centre",
-    "Implementing Agency": "BRAC  -  Bangladesh Rural Advancement Committee",
+    "Implementing Agency": "BRAC - Bangladesh Rural Advancement Committee",
     "Camp Name": "Camp 13",
     "Block Name": "C13_B",
     "Facility Type": "Primary Health Center",
@@ -1157,7 +1185,8 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Available"
+    "BEmOC": "Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "HF_408",
@@ -1197,12 +1226,13 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Available"
+    "BEmOC": "Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "HF_495",
     "Facility Name": "MSF/OCB-495",
-    "Implementing Agency": "MSF",
+    "Implementing Agency": "MSF - Medecins Sans Frontieres",
     "Camp Name": "Camp 14",
     "Block Name": "N/A",
     "Facility Type": "Primary Health Center",
@@ -1237,7 +1267,8 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Not Normally Available"
+    "BEmOC": "Not Normally Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "HF_501",
@@ -1277,12 +1308,13 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Available"
+    "BEmOC": "Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "No id",
     "Facility Name": "Health",
-    "Implementing Agency": "SCI  -  Save the Children",
+    "Implementing Agency": "SCI - Save the Children",
     "Camp Name": "Camp 15",
     "Block Name": "C15_H",
     "Facility Type": "Primary Health Center",
@@ -1317,7 +1349,8 @@
     "NCD_Clinic": "",
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
-    "BEmOC": ""
+    "BEmOC": "",
+    "Image(s)": ""
   },
   {
     "Facility ID": "HF_261",
@@ -1357,12 +1390,13 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Available"
+    "BEmOC": "Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "No",
     "Facility Name": "Primary Health care",
-    "Implementing Agency": "MSF  -  Medecins Sans Frontieres",
+    "Implementing Agency": "MSF - Medecins Sans Frontieres",
     "Camp Name": "Camp 15",
     "Block Name": "C15_G",
     "Facility Type": "Primary Health Center",
@@ -1397,12 +1431,13 @@
     "NCD_Clinic": "",
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
-    "BEmOC": ""
+    "BEmOC": "",
+    "Image(s)": ""
   },
   {
     "Facility ID": "MSF-OCB-151",
     "Facility Name": "Primary Health Center",
-    "Implementing Agency": "MSF  -  Medecins Sans Frontieres",
+    "Implementing Agency": "MSF - Medecins Sans Frontieres",
     "Camp Name": "Camp 15",
     "Block Name": "C15_D",
     "Facility Type": "Primary Health Center",
@@ -1437,12 +1472,13 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Available"
+    "BEmOC": "Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "MSF-531",
     "Facility Name": "Goyalmara Mother and child hospital.",
-    "Implementing Agency": "MSF",
+    "Implementing Agency": "MSF - Medecins Sans Frontieres",
     "Camp Name": "Camp 16",
     "Block Name": "N/A",
     "Facility Type": "Primary Health Center",
@@ -1477,7 +1513,8 @@
     "NCD_Clinic": "Not Normally Available",
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Available"
+    "BEmOC": "Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "APHC-414",
@@ -1517,12 +1554,13 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Available"
+    "BEmOC": "Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": 165,
     "Facility Name": "primary Heath centre",
-    "Implementing Agency": "PHD",
+    "Implementing Agency": "PHD - Partners in Health Development",
     "Camp Name": "Camp 16",
     "Block Name": "C16_A",
     "Facility Type": "Primary Health Center",
@@ -1557,12 +1595,13 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Available"
+    "BEmOC": "Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "HF_169",
     "Facility Name": "RTMI/UNICEF-169",
-    "Implementing Agency": "(RTMI - Research, Training & Management International)",
+    "Implementing Agency": "RTMI - Research, Training & Management International",
     "Camp Name": "Camp 17",
     "Block Name": "C17_C",
     "Facility Type": "Primary Health Center",
@@ -1597,12 +1636,13 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Available"
+    "BEmOC": "Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "N/A",
     "Facility Name": "Brac Legal Aid Service",
-    "Implementing Agency": "BRAC  -  Bangladesh Rural Advancement Committee",
+    "Implementing Agency": "BRAC - Bangladesh Rural Advancement Committee",
     "Camp Name": "Camp 17",
     "Block Name": "C17_C",
     "Facility Type": "Primary Health Center",
@@ -1637,12 +1677,13 @@
     "NCD_Clinic": "",
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
-    "BEmOC": ""
+    "BEmOC": "",
+    "Image(s)": ""
   },
   {
     "Facility ID": "HF_179",
     "Facility Name": "RTMI/UNICEF-179",
-    "Implementing Agency": "UNICEF  -  United Nations Childrens' Fund",
+    "Implementing Agency": "UNICEF - United Nations Childrens' Fund",
     "Camp Name": "Camp 18",
     "Block Name": "C18_C",
     "Facility Type": "Primary Health Center",
@@ -1677,12 +1718,13 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Available"
+    "BEmOC": "Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "HF_187",
     "Facility Name": "Primary Health Centre",
-    "Implementing Agency": "IOM  -  International Organization for Migration",
+    "Implementing Agency": "IOM - International Organization for Migration",
     "Camp Name": "Camp 19",
     "Block Name": "C19_B",
     "Facility Type": "Primary Health Center",
@@ -1717,12 +1759,13 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Partially Available"
+    "BEmOC": "Partially Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "HF_453",
     "Facility Name": "Friendship/IOM-453",
-    "Implementing Agency": "FRIENDSHIP",
+    "Implementing Agency": "Friendship",
     "Camp Name": "Camp 20",
     "Block Name": "C20_B",
     "Facility Type": "Primary Health Center",
@@ -1757,12 +1800,13 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Available",
     "Prosthetics_Orthotics": "Available",
-    "BEmOC": "Available"
+    "BEmOC": "Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "HF_233",
     "Facility Name": "MOHFW/BDRCS/Turkish RC-233",
-    "Implementing Agency": "BDRCS - Bangladesh Red Crescent Society",
+    "Implementing Agency": "BDRC - Bangladesh Development Research Center",
     "Camp Name": "Camp 20 Extension",
     "Block Name": "C20X_D",
     "Facility Type": "Primary Health Center",
@@ -1797,12 +1841,13 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Available"
+    "BEmOC": "Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "HF_605",
     "Facility Name": "SCI-605",
-    "Implementing Agency": "(SCI - Save the Children)",
+    "Implementing Agency": "SCI - Save the Children",
     "Camp Name": "Camp 21",
     "Block Name": "",
     "Facility Type": "Primary Health Center",
@@ -1814,35 +1859,36 @@
     "Target Population": "Refugee",
     "RiskLand": "No",
     "RiskFlood": "No",
-    "Number of Inpatient Beds": "",
-    "Intensive Care Unit (ICU) beds": "",
-    "Number of Maternity Beds": "",
-    "Tuberculosis": "",
-    "Basic_Lab": "",
-    "Basic_X_Ray": "",
-    "Hemodialysis_Unit": "",
-    "Lab_Secondary": "",
-    "Lab_Tertiary": "",
-    "Outpatient_Secondary": "",
-    "Outpatient_Primary": "",
-    "Radiology_Unit": "",
-    "Referral_Acceptance_and_Capacity": "",
-    "WHO_Basic_Emergency": "",
-    "Antenatal_Care": "",
-    "Asthma_COPD": "",
-    "CVD_Risk_Assessment": "",
-    "Diabetes": "",
-    "Hypertension": "",
-    "Inpatient_Acute_Rehab": "",
-    "NCD_Clinic": "",
-    "Outpatient_Rehab": "",
-    "Prosthetics_Orthotics": "",
-    "BEmOC": ""
+    "Number of Inpatient Beds": 16,
+    "Intensive Care Unit (ICU) beds": "Not normally provided",
+    "Number of Maternity Beds": 5,
+    "Tuberculosis": "Available",
+    "Basic_Lab": "Available",
+    "Basic_X_Ray": "Not Normally Available",
+    "Hemodialysis_Unit": "Not Normally Available",
+    "Lab_Secondary": "Available",
+    "Lab_Tertiary": "Not Normally Available",
+    "Outpatient_Secondary": "Available",
+    "Outpatient_Primary": "Available",
+    "Radiology_Unit": "Unsure",
+    "Referral_Acceptance_and_Capacity": "Available",
+    "WHO_Basic_Emergency": "Available",
+    "Antenatal_Care": "Available",
+    "Asthma_COPD": "Available",
+    "CVD_Risk_Assessment": "Available",
+    "Diabetes": "Available",
+    "Hypertension": "Available",
+    "Inpatient_Acute_Rehab": "Not Normally Available",
+    "NCD_Clinic": "Available",
+    "Outpatient_Rehab": "Not Normally Available",
+    "Prosthetics_Orthotics": "Not Normally Available",
+    "BEmOC": "Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "HF_212",
     "Facility Name": "IRC PHC-212",
-    "Implementing Agency": "IRC  -  International Rescue Committee",
+    "Implementing Agency": "IRC - International Rescue Committee",
     "Camp Name": "Camp 22",
     "Block Name": "C22_A",
     "Facility Type": "Primary Health Center",
@@ -1854,35 +1900,36 @@
     "Target Population": "Both",
     "RiskLand": "No",
     "RiskFlood": "No",
-    "Number of Inpatient Beds": "",
-    "Intensive Care Unit (ICU) beds": "",
-    "Number of Maternity Beds": "",
-    "Tuberculosis": "",
-    "Basic_Lab": "",
-    "Basic_X_Ray": "",
-    "Hemodialysis_Unit": "",
-    "Lab_Secondary": "",
-    "Lab_Tertiary": "",
-    "Outpatient_Secondary": "",
-    "Outpatient_Primary": "",
-    "Radiology_Unit": "",
-    "Referral_Acceptance_and_Capacity": "",
-    "WHO_Basic_Emergency": "",
-    "Antenatal_Care": "",
-    "Asthma_COPD": "",
-    "CVD_Risk_Assessment": "",
-    "Diabetes": "",
-    "Hypertension": "",
-    "Inpatient_Acute_Rehab": "",
-    "NCD_Clinic": "",
-    "Outpatient_Rehab": "",
-    "Prosthetics_Orthotics": "",
-    "BEmOC": ""
+    "Number of Inpatient Beds": 5,
+    "Intensive Care Unit (ICU) beds": "Not normally provided",
+    "Number of Maternity Beds": 11,
+    "Tuberculosis": "Not Normally Available",
+    "Basic_Lab": "Available",
+    "Basic_X_Ray": "Not Normally Available",
+    "Hemodialysis_Unit": "Not Normally Available",
+    "Lab_Secondary": "Partially Available",
+    "Lab_Tertiary": "Not Normally Available",
+    "Outpatient_Secondary": "Available",
+    "Outpatient_Primary": "Available",
+    "Radiology_Unit": "Not Normally Available",
+    "Referral_Acceptance_and_Capacity": "Available",
+    "WHO_Basic_Emergency": "Partially Available",
+    "Antenatal_Care": "Available",
+    "Asthma_COPD": "Available",
+    "CVD_Risk_Assessment": "Available",
+    "Diabetes": "Available",
+    "Hypertension": "Available",
+    "Inpatient_Acute_Rehab": "Partially Available",
+    "NCD_Clinic": "Available",
+    "Outpatient_Rehab": "Not Normally Available",
+    "Prosthetics_Orthotics": "Not Normally Available",
+    "BEmOC": "Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": 200,
     "Facility Name": "Primary Health Centre",
-    "Implementing Agency": "IOM  -  International Organization for Migration",
+    "Implementing Agency": "IOM - International Organization for Migration",
     "Camp Name": "Camp 24",
     "Block Name": "C24_E",
     "Facility Type": "Primary Health Center",
@@ -1917,7 +1964,8 @@
     "NCD_Clinic": "",
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
-    "BEmOC": ""
+    "BEmOC": "",
+    "Image(s)": ""
   },
   {
     "Facility ID": "HF_268",
@@ -1957,7 +2005,8 @@
     "NCD_Clinic": "",
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
-    "BEmOC": ""
+    "BEmOC": "",
+    "Image(s)": ""
   },
   {
     "Facility ID": "HF_563",
@@ -1997,12 +2046,13 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Available"
+    "BEmOC": "Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": 564,
     "Facility Name": "TdH Hospital",
-    "Implementing Agency": "(TDH)",
+    "Implementing Agency": "TdH - Terre des Hommes",
     "Camp Name": "Camp 26",
     "Block Name": "C26_F",
     "Facility Type": "Primary Health Center",
@@ -2037,12 +2087,13 @@
     "NCD_Clinic": "",
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
-    "BEmOC": ""
+    "BEmOC": "",
+    "Image(s)": ""
   },
   {
     "Facility ID": "HF_564",
     "Facility Name": "TDH-564",
-    "Implementing Agency": "(TdH - Terre des Hommes)",
+    "Implementing Agency": "TdH - Terre des Hommes",
     "Camp Name": "Camp 26",
     "Block Name": "C26_F",
     "Facility Type": "Primary Health Center",
@@ -2077,12 +2128,13 @@
     "NCD_Clinic": "",
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
-    "BEmOC": ""
+    "BEmOC": "",
+    "Image(s)": ""
   },
   {
     "Facility ID": "HF_416",
     "Facility Name": "TDH-416",
-    "Implementing Agency": "(TdH - Terre des Hommes)",
+    "Implementing Agency": "TdH - Terre des Hommes",
     "Camp Name": "Camp 27",
     "Block Name": "C27_B",
     "Facility Type": "Primary Health Center",
@@ -2117,12 +2169,13 @@
     "NCD_Clinic": "",
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
-    "BEmOC": ""
+    "BEmOC": "",
+    "Image(s)": ""
   },
   {
     "Facility ID": 339,
     "Facility Name": "N/A",
-    "Implementing Agency": "GK  -  Gonoshasthaya Kendra",
+    "Implementing Agency": "GK - Gonoshasthaya Kendra",
     "Camp Name": "Kutupalong RC",
     "Block Name": "KRC_G",
     "Facility Type": "Primary Health Center",
@@ -2157,12 +2210,13 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Available"
+    "BEmOC": "Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": 331,
     "Facility Name": "MSF Primary Health Center",
-    "Implementing Agency": "MSF  -  Medecins Sans Frontieres",
+    "Implementing Agency": "MSF - Medecins Sans Frontieres",
     "Camp Name": "Outside Camp",
     "Block Name": "",
     "Facility Type": "Primary Health Center",
@@ -2197,7 +2251,8 @@
     "NCD_Clinic": "Partially Available",
     "Outpatient_Rehab": "Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Available"
+    "BEmOC": "Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": 29,
@@ -2237,12 +2292,13 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Partially Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Available"
+    "BEmOC": "Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "No ID",
     "Facility Name": "Partners in health and development",
-    "Implementing Agency": "PHD  -  Partners in Health Development",
+    "Implementing Agency": "PHD - Partners in Health Development",
     "Camp Name": "Camp 04",
     "Block Name": "C04_G",
     "Facility Type": "Secondary Health Facility",
@@ -2277,12 +2333,13 @@
     "NCD_Clinic": "",
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
-    "BEmOC": ""
+    "BEmOC": "",
+    "Image(s)": ""
   },
   {
     "Facility ID": "UID-338",
     "Facility Name": "Secondary health Facilities",
-    "Implementing Agency": "IRC  -  International Rescue Committee",
+    "Implementing Agency": "IRC - International Rescue Committee",
     "Camp Name": "Camp 04",
     "Block Name": "C04_A",
     "Facility Type": "Secondary Health Facility",
@@ -2317,7 +2374,8 @@
     "NCD_Clinic": "",
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
-    "BEmOC": ""
+    "BEmOC": "",
+    "Image(s)": ""
   },
   {
     "Facility ID": "HF_081",
@@ -2357,7 +2415,8 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Available"
+    "BEmOC": "Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "HF_399",
@@ -2397,12 +2456,13 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Available"
+    "BEmOC": "Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": 375,
     "Facility Name": "BDRCS Field Hospital",
-    "Implementing Agency": "(BDRCS)",
+    "Implementing Agency": "BDRC - Bangladesh Development Research Center",
     "Camp Name": "Outside Camp",
     "Block Name": "",
     "Facility Type": "Secondary Health Facility",
@@ -2437,12 +2497,13 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Partially Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Available"
+    "BEmOC": "Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "N/A",
     "Facility Name": "Madecins Sans Frontiers",
-    "Implementing Agency": "(MSF)",
+    "Implementing Agency": "MSF - Medecins Sans Frontieres",
     "Camp Name": "Outside Camp",
     "Block Name": "",
     "Facility Type": "Secondary Health Facility",
@@ -2477,7 +2538,8 @@
     "NCD_Clinic": "",
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
-    "BEmOC": ""
+    "BEmOC": "",
+    "Image(s)": ""
   },
   {
     "Facility ID": 255,
@@ -2517,12 +2579,13 @@
     "NCD_Clinic": "Partially Available",
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Not Normally Available"
+    "BEmOC": "Not Normally Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "HP-007",
     "Facility Name": "GK/MI-007",
-    "Implementing Agency": "(GK - Gonoshasthaya Kendra)",
+    "Implementing Agency": "GK - Gonoshasthaya Kendra",
     "Camp Name": "Camp 01E",
     "Block Name": "C01E_C",
     "Facility Type": "Health Post",
@@ -2557,12 +2620,13 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Not Normally Available"
+    "BEmOC": "Not Normally Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "PHC-2",
     "Facility Name": "PHC",
-    "Implementing Agency": "BRAC  -  Bangladesh Rural Advancement Committee",
+    "Implementing Agency": "BRAC - Bangladesh Rural Advancement Committee",
     "Camp Name": "Camp 01E",
     "Block Name": "C01E_F",
     "Facility Type": "Health Post",
@@ -2597,12 +2661,13 @@
     "NCD_Clinic": "",
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
-    "BEmOC": ""
+    "BEmOC": "",
+    "Image(s)": ""
   },
   {
     "Facility ID": 13,
     "Facility Name": "International Organization for Migration",
-    "Implementing Agency": "IOM  -  International Organization for Migration",
+    "Implementing Agency": "IOM - International Organization for Migration",
     "Camp Name": "Camp 01W",
     "Block Name": "C01W_C",
     "Facility Type": "Health Post",
@@ -2637,12 +2702,13 @@
     "NCD_Clinic": "",
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
-    "BEmOC": ""
+    "BEmOC": "",
+    "Image(s)": ""
   },
   {
     "Facility ID": 13,
     "Facility Name": "HEAFA",
-    "Implementing Agency": "(HAEFA)",
+    "Implementing Agency": "HAEFA - Health and Education for All",
     "Camp Name": "Camp 01W",
     "Block Name": "C01W_C",
     "Facility Type": "Health Post",
@@ -2677,12 +2743,13 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Not Normally Available"
+    "BEmOC": "Not Normally Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": 411,
     "Facility Name": "Al-Khair Foundation",
-    "Implementing Agency": "(AKF)",
+    "Implementing Agency": "AKF",
     "Camp Name": "Camp 01W",
     "Block Name": "C01W_B",
     "Facility Type": "Health Post",
@@ -2717,12 +2784,13 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Not Normally Available"
+    "BEmOC": "Not Normally Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "N/A",
     "Facility Name": "Ypsa CPI health post",
-    "Implementing Agency": "YPSA  -  Young Power in Social Action",
+    "Implementing Agency": "YPSA - Young Power in Social Action",
     "Camp Name": "Camp 01W",
     "Block Name": "C01W_B",
     "Facility Type": "Health Post",
@@ -2757,12 +2825,13 @@
     "NCD_Clinic": "",
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
-    "BEmOC": ""
+    "BEmOC": "",
+    "Image(s)": ""
   },
   {
     "Facility ID": "HF_409",
     "Facility Name": "BRAC Health Post",
-    "Implementing Agency": "BRAC  -  Bangladesh Rural Advancement Committee",
+    "Implementing Agency": "BRAC - Bangladesh Rural Advancement Committee",
     "Camp Name": "Camp 02E",
     "Block Name": "C02E_D",
     "Facility Type": "Health Post",
@@ -2797,12 +2866,13 @@
     "NCD_Clinic": "Partially Available",
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Not Normally Available"
+    "BEmOC": "Not Normally Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "HF_413",
     "Facility Name": "HMBD-413",
-    "Implementing Agency": "(HMBD Foundation)",
+    "Implementing Agency": "HMBD Foundation",
     "Camp Name": "Camp 02W",
     "Block Name": "C02W_B",
     "Facility Type": "Health Post",
@@ -2837,12 +2907,13 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Not Normally Available"
+    "BEmOC": "Not Normally Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": 3,
     "Facility Name": "Multiple Activity center",
-    "Implementing Agency": "PHD  -  Partners in Health Development",
+    "Implementing Agency": "PHD - Partners in Health Development",
     "Camp Name": "Camp 03",
     "Block Name": "C03_G",
     "Facility Type": "Health Post",
@@ -2877,7 +2948,8 @@
     "NCD_Clinic": "",
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
-    "BEmOC": ""
+    "BEmOC": "",
+    "Image(s)": ""
   },
   {
     "Facility ID": 29,
@@ -2917,12 +2989,13 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Partially Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Available"
+    "BEmOC": "Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": 40,
     "Facility Name": "OBAT Health Post",
-    "Implementing Agency": "OBAT  -  Obaid, Bilquis, Aman & Tayyab Helpers",
+    "Implementing Agency": "OBAT - Obaid, Bilquis, Aman & Tayyab Helpers",
     "Camp Name": "Camp 04",
     "Block Name": "C04_D",
     "Facility Type": "Health Post",
@@ -2957,12 +3030,13 @@
     "NCD_Clinic": "",
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
-    "BEmOC": ""
+    "BEmOC": "",
+    "Image(s)": ""
   },
   {
     "Facility ID": "N/A",
     "Facility Name": "N/A",
-    "Implementing Agency": "GK  -  Gonoshasthaya Kendra",
+    "Implementing Agency": "GK - Gonoshasthaya Kendra",
     "Camp Name": "Camp 04",
     "Block Name": "C04_C",
     "Facility Type": "Health Post",
@@ -2997,12 +3071,13 @@
     "NCD_Clinic": "",
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
-    "BEmOC": ""
+    "BEmOC": "",
+    "Image(s)": ""
   },
   {
     "Facility ID": "N/A",
     "Facility Name": "N/A",
-    "Implementing Agency": "YPSA  -  Young Power in Social Action",
+    "Implementing Agency": "YPSA - Young Power in Social Action",
     "Camp Name": "Camp 04",
     "Block Name": "C04_C",
     "Facility Type": "Health Post",
@@ -3037,12 +3112,13 @@
     "NCD_Clinic": "",
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
-    "BEmOC": ""
+    "BEmOC": "",
+    "Image(s)": ""
   },
   {
     "Facility ID": 38,
     "Facility Name": "Save the children health post",
-    "Implementing Agency": "SCI  -  Save the Children",
+    "Implementing Agency": "SCI - Save the Children",
     "Camp Name": "Camp 04",
     "Block Name": "C04_G",
     "Facility Type": "Health Post",
@@ -3077,7 +3153,8 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Partially Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Not Normally Available"
+    "BEmOC": "Not Normally Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "Friendship UID 050",
@@ -3117,12 +3194,13 @@
     "NCD_Clinic": "",
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
-    "BEmOC": ""
+    "BEmOC": "",
+    "Image(s)": ""
   },
   {
     "Facility ID": "HF_405",
     "Facility Name": "ASEAB_405",
-    "Implementing Agency": "ASEAB  -  Association for Socio Economic Advancement in Bangladesh",
+    "Implementing Agency": "ASEAB - Association for Socio Economic Advancement in Bangladesh",
     "Camp Name": "Camp 06",
     "Block Name": "C06_D",
     "Facility Type": "Health Post",
@@ -3157,12 +3235,13 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Not Normally Available"
+    "BEmOC": "Not Normally Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "HF_055",
     "Facility Name": "RTMI/Ipas/UNFPA-055",
-    "Implementing Agency": "RTMI  -  Research, Training & Management International",
+    "Implementing Agency": "RTMI - Research, Training & Management International",
     "Camp Name": "Camp 06",
     "Block Name": "C06_A",
     "Facility Type": "Health Post",
@@ -3197,12 +3276,13 @@
     "NCD_Clinic": "",
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
-    "BEmOC": ""
+    "BEmOC": "",
+    "Image(s)": ""
   },
   {
     "Facility ID": 578,
     "Facility Name": "health post",
-    "Implementing Agency": "BRAC  -  Bangladesh Rural Advancement Committee",
+    "Implementing Agency": "BRAC - Bangladesh Rural Advancement Committee",
     "Camp Name": "Camp 07",
     "Block Name": "C07_B",
     "Facility Type": "Health Post",
@@ -3237,12 +3317,13 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Not Normally Available"
+    "BEmOC": "Not Normally Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "HF_222",
     "Facility Name": "AWARD-222",
-    "Implementing Agency": "(AWARD)",
+    "Implementing Agency": "AWARD",
     "Camp Name": "Camp 07",
     "Block Name": "C07_D",
     "Facility Type": "Health Post",
@@ -3277,7 +3358,8 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Not Normally Available"
+    "BEmOC": "Not Normally Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "HF_ 247",
@@ -3317,7 +3399,8 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Not Normally Available"
+    "BEmOC": "Not Normally Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": 274,
@@ -3357,7 +3440,8 @@
     "NCD_Clinic": "",
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
-    "BEmOC": ""
+    "BEmOC": "",
+    "Image(s)": ""
   },
   {
     "Facility ID": 221,
@@ -3397,12 +3481,13 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Not Normally Available"
+    "BEmOC": "Not Normally Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": 225,
     "Facility Name": "Muslims -health  post",
-    "Implementing Agency": "MHI  -  Muslim Hands International",
+    "Implementing Agency": "MHI - Muslim Hands International",
     "Camp Name": "Camp 08E",
     "Block Name": "C08E_B",
     "Facility Type": "Health Post",
@@ -3437,7 +3522,8 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Not Normally Available"
+    "BEmOC": "Not Normally Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "HF_041",
@@ -3477,12 +3563,13 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Not Normally Available"
+    "BEmOC": "Not Normally Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": 69,
     "Facility Name": "MSF hospital",
-    "Implementing Agency": "MSF",
+    "Implementing Agency": "MSF - Medecins Sans Frontieres",
     "Camp Name": "Camp 08W",
     "Block Name": "C08W_F",
     "Facility Type": "Health Post",
@@ -3517,12 +3604,13 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Not Normally Available"
+    "BEmOC": "Not Normally Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "No Id",
     "Facility Name": "Community  Health Programme",
-    "Implementing Agency": "BRAC  -  Bangladesh Rural Advancement Committee",
+    "Implementing Agency": "BRAC - Bangladesh Rural Advancement Committee",
     "Camp Name": "Camp 08W",
     "Block Name": "C08W_F",
     "Facility Type": "Health Post",
@@ -3557,12 +3645,13 @@
     "NCD_Clinic": "",
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
-    "BEmOC": ""
+    "BEmOC": "",
+    "Image(s)": ""
   },
   {
     "Facility ID": "No",
     "Facility Name": "Award Mobile Dental clinic",
-    "Implementing Agency": "MHI  -  Muslim Hands International",
+    "Implementing Agency": "MHI - Muslim Hands International",
     "Camp Name": "Camp 09",
     "Block Name": "C09_G",
     "Facility Type": "Health Post",
@@ -3597,7 +3686,8 @@
     "NCD_Clinic": "",
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
-    "BEmOC": ""
+    "BEmOC": "",
+    "Image(s)": ""
   },
   {
     "Facility ID": "HF_078",
@@ -3637,7 +3727,8 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Not Normally Available"
+    "BEmOC": "Not Normally Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "HF_094",
@@ -3677,7 +3768,8 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Not Normally Available"
+    "BEmOC": "Not Normally Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "HF_220",
@@ -3717,12 +3809,13 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Not Normally Available"
+    "BEmOC": "Not Normally Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "No ID",
     "Facility Name": "CD-BHP",
-    "Implementing Agency": "BRAC",
+    "Implementing Agency": "BRAC - Bangladesh Rural Advancement Committee",
     "Camp Name": "Camp 09",
     "Block Name": "C09_C",
     "Facility Type": "Health Post",
@@ -3757,7 +3850,8 @@
     "NCD_Clinic": "",
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
-    "BEmOC": ""
+    "BEmOC": "",
+    "Image(s)": ""
   },
   {
     "Facility ID": "PH077",
@@ -3797,7 +3891,8 @@
     "NCD_Clinic": "",
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
-    "BEmOC": ""
+    "BEmOC": "",
+    "Image(s)": ""
   },
   {
     "Facility ID": "HF_099",
@@ -3837,7 +3932,8 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Not Normally Available"
+    "BEmOC": "Not Normally Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "HF_098",
@@ -3877,7 +3973,8 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Not Normally Available"
+    "BEmOC": "Not Normally Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "no",
@@ -3917,12 +4014,13 @@
     "NCD_Clinic": "",
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
-    "BEmOC": ""
+    "BEmOC": "",
+    "Image(s)": ""
   },
   {
     "Facility ID": 0,
     "Facility Name": "Multiple Activity Centre",
-    "Implementing Agency": "PHD  -  Partners in Health Development",
+    "Implementing Agency": "PHD - Partners in Health Development",
     "Camp Name": "Camp 11",
     "Block Name": "C11_C",
     "Facility Type": "Health Post",
@@ -3957,7 +4055,8 @@
     "NCD_Clinic": "",
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
-    "BEmOC": ""
+    "BEmOC": "",
+    "Image(s)": ""
   },
   {
     "Facility ID": "HP_112",
@@ -3997,7 +4096,8 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Not Normally Available"
+    "BEmOC": "Not Normally Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "HF_114",
@@ -4037,12 +4137,13 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Not Normally Available"
+    "BEmOC": "Not Normally Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "HF_119",
     "Facility Name": "JRCS/BDRCS-119",
-    "Implementing Agency": "BDRCS  -  Bangladesh Red Crescent Society",
+    "Implementing Agency": "BDRC - Bangladesh Development Research Center",
     "Camp Name": "Camp 12",
     "Block Name": "C12_D",
     "Facility Type": "Health Post",
@@ -4077,12 +4178,13 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Not Normally Available"
+    "BEmOC": "Not Normally Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "No Id",
     "Facility Name": "Health Post",
-    "Implementing Agency": "PULSE  -  PULSE Bangladesh",
+    "Implementing Agency": "PULSE - PULSE Bangladesh",
     "Camp Name": "Camp 12",
     "Block Name": "C12_A",
     "Facility Type": "Health Post",
@@ -4117,7 +4219,8 @@
     "NCD_Clinic": "",
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
-    "BEmOC": ""
+    "BEmOC": "",
+    "Image(s)": ""
   },
   {
     "Facility ID": "HF_186",
@@ -4157,7 +4260,8 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Available"
+    "BEmOC": "Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "HF_136",
@@ -4197,7 +4301,8 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Not Normally Available"
+    "BEmOC": "Not Normally Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "no id",
@@ -4237,12 +4342,13 @@
     "NCD_Clinic": "",
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
-    "BEmOC": ""
+    "BEmOC": "",
+    "Image(s)": ""
   },
   {
     "Facility ID": "no",
     "Facility Name": "Health Post",
-    "Implementing Agency": "HMBD  -  Health Management BD Foundation",
+    "Implementing Agency": "HMBD - Health Management BD Foundation",
     "Camp Name": "Camp 13",
     "Block Name": "C13_A",
     "Facility Type": "Health Post",
@@ -4277,7 +4383,8 @@
     "NCD_Clinic": "",
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
-    "BEmOC": ""
+    "BEmOC": "",
+    "Image(s)": ""
   },
   {
     "Facility ID": "HF_126",
@@ -4317,7 +4424,8 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Not Normally Available"
+    "BEmOC": "Not Normally Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "HF_499",
@@ -4357,7 +4465,8 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Not Normally Available"
+    "BEmOC": "Not Normally Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "HP_219",
@@ -4397,7 +4506,8 @@
     "NCD_Clinic": "",
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
-    "BEmOC": ""
+    "BEmOC": "",
+    "Image(s)": ""
   },
   {
     "Facility ID": "HF_137",
@@ -4437,12 +4547,13 @@
     "NCD_Clinic": "",
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
-    "BEmOC": ""
+    "BEmOC": "",
+    "Image(s)": ""
   },
   {
     "Facility ID": "NO ID",
     "Facility Name": "Health Awareness Post",
-    "Implementing Agency": "BDRCS  -  Bangladesh Red Crescent Society",
+    "Implementing Agency": "BDRC - Bangladesh Development Research Center",
     "Camp Name": "Camp 14",
     "Block Name": "C14_A",
     "Facility Type": "Health Post",
@@ -4477,12 +4588,13 @@
     "NCD_Clinic": "",
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
-    "BEmOC": ""
+    "BEmOC": "",
+    "Image(s)": ""
   },
   {
     "Facility ID": "No id",
     "Facility Name": "Health Post",
-    "Implementing Agency": "CDD  -  Center for for Disability in Development",
+    "Implementing Agency": "CDD - Center for for Disability in Development",
     "Camp Name": "Camp 14",
     "Block Name": "C14_A",
     "Facility Type": "Health Post",
@@ -4517,12 +4629,13 @@
     "NCD_Clinic": "",
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
-    "BEmOC": ""
+    "BEmOC": "",
+    "Image(s)": ""
   },
   {
     "Facility ID": "No Id",
     "Facility Name": "Basmah Health post",
-    "Implementing Agency": "Basmah Foundation -",
+    "Implementing Agency": "Basmah Foundation",
     "Camp Name": "Camp 14",
     "Block Name": "C14_E",
     "Facility Type": "Health Post",
@@ -4557,7 +4670,8 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Not Normally Available"
+    "BEmOC": "Not Normally Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "HF_218",
@@ -4597,7 +4711,8 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Not Normally Available"
+    "BEmOC": "Not Normally Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "HF_154",
@@ -4637,12 +4752,13 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Partially Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Not Normally Available"
+    "BEmOC": "Not Normally Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "HF_146",
     "Facility Name": "Primary Health Care Centre",
-    "Implementing Agency": "SCI  -  Save the Children",
+    "Implementing Agency": "SCI - Save the Children",
     "Camp Name": "Camp 15",
     "Block Name": "C15_G",
     "Facility Type": "Health Post",
@@ -4677,12 +4793,13 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Available"
+    "BEmOC": "Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": 150,
     "Facility Name": "IOM Jamtoli Health Post and Maternity Center",
-    "Implementing Agency": "IOM  -  International Organization for Migration",
+    "Implementing Agency": "IOM - International Organization for Migration",
     "Camp Name": "Camp 15",
     "Block Name": "C15_E",
     "Facility Type": "Health Post",
@@ -4717,12 +4834,13 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Available"
+    "BEmOC": "Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "No ID",
     "Facility Name": "Meeting point",
-    "Implementing Agency": "MSF  -  Medecins Sans Frontieres",
+    "Implementing Agency": "MSF - Medecins Sans Frontieres",
     "Camp Name": "Camp 16",
     "Block Name": "C16_B",
     "Facility Type": "Health Post",
@@ -4757,7 +4875,8 @@
     "NCD_Clinic": "",
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
-    "BEmOC": ""
+    "BEmOC": "",
+    "Image(s)": ""
   },
   {
     "Facility ID": 373,
@@ -4797,7 +4916,8 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Not Normally Available"
+    "BEmOC": "Not Normally Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "HF_417",
@@ -4837,12 +4957,13 @@
     "NCD_Clinic": "",
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
-    "BEmOC": ""
+    "BEmOC": "",
+    "Image(s)": ""
   },
   {
     "Facility ID": "No",
     "Facility Name": "Disibility statics  Point.",
-    "Implementing Agency": "HI  -  Handicap International",
+    "Implementing Agency": "HI - Handicap International",
     "Camp Name": "Camp 16",
     "Block Name": "C16_A",
     "Facility Type": "Health Post",
@@ -4877,7 +4998,8 @@
     "NCD_Clinic": "",
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
-    "BEmOC": ""
+    "BEmOC": "",
+    "Image(s)": ""
   },
   {
     "Facility ID": "HF_252",
@@ -4917,12 +5039,13 @@
     "NCD_Clinic": "",
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
-    "BEmOC": ""
+    "BEmOC": "",
+    "Image(s)": ""
   },
   {
     "Facility ID": "no",
     "Facility Name": "CDD",
-    "Implementing Agency": "CDD  -  Center for for Disability in Development",
+    "Implementing Agency": "CDD - Center for for Disability in Development",
     "Camp Name": "Camp 17",
     "Block Name": "C17_C",
     "Facility Type": "Health Post",
@@ -4957,12 +5080,13 @@
     "NCD_Clinic": "",
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
-    "BEmOC": ""
+    "BEmOC": "",
+    "Image(s)": ""
   },
   {
     "Facility ID": "HF_591",
     "Facility Name": "Global One-591",
-    "Implementing Agency": "(GO - GlobalOne)",
+    "Implementing Agency": "GO - GlobalOne",
     "Camp Name": "Camp 17",
     "Block Name": "C17_B",
     "Facility Type": "Health Post",
@@ -4997,7 +5121,8 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Not Normally Available"
+    "BEmOC": "Not Normally Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "HF_235",
@@ -5037,12 +5162,13 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Not Normally Available"
+    "BEmOC": "Not Normally Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "UID-168",
     "Facility Name": "PHD-SCI Health Post",
-    "Implementing Agency": "(PHD)",
+    "Implementing Agency": "PHD - Partners in Health Development",
     "Camp Name": "Camp 17",
     "Block Name": "C17_C",
     "Facility Type": "Health Post",
@@ -5077,12 +5203,13 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Not Normally Available"
+    "BEmOC": "Not Normally Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": 235,
     "Facility Name": "MOHFW-TRC",
-    "Implementing Agency": "(BDRCS)",
+    "Implementing Agency": "BDRC - Bangladesh Development Research Center",
     "Camp Name": "Camp 17",
     "Block Name": "C17_A",
     "Facility Type": "Health Post",
@@ -5117,12 +5244,13 @@
     "NCD_Clinic": "",
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
-    "BEmOC": ""
+    "BEmOC": "",
+    "Image(s)": ""
   },
   {
     "Facility ID": "HF_607",
     "Facility Name": "RTMI/UNICEF-607",
-    "Implementing Agency": "(RTMI - Research, Training & Management International)",
+    "Implementing Agency": "RTMI - Research, Training & Management International",
     "Camp Name": "Camp 17",
     "Block Name": "C17_B",
     "Facility Type": "Health Post",
@@ -5157,7 +5285,8 @@
     "NCD_Clinic": "",
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
-    "BEmOC": ""
+    "BEmOC": "",
+    "Image(s)": ""
   },
   {
     "Facility ID": "HF_177",
@@ -5197,7 +5326,8 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Not Normally Available"
+    "BEmOC": "Not Normally Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "ID11102",
@@ -5237,7 +5367,8 @@
     "NCD_Clinic": "",
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
-    "BEmOC": ""
+    "BEmOC": "",
+    "Image(s)": ""
   },
   {
     "Facility ID": "HF_267",
@@ -5277,7 +5408,8 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Not Normally Available"
+    "BEmOC": "Not Normally Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "No",
@@ -5317,7 +5449,8 @@
     "NCD_Clinic": "",
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
-    "BEmOC": ""
+    "BEmOC": "",
+    "Image(s)": ""
   },
   {
     "Facility ID": "HF_281",
@@ -5357,12 +5490,13 @@
     "NCD_Clinic": "",
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
-    "BEmOC": ""
+    "BEmOC": "",
+    "Image(s)": ""
   },
   {
     "Facility ID": 609,
     "Facility Name": "SALT Financial Literacy International",
-    "Implementing Agency": "SALT  -  SALT Financial Literacy International",
+    "Implementing Agency": "SALT - SALT Financial Literacy International",
     "Camp Name": "Camp 20",
     "Block Name": "C20_A",
     "Facility Type": "Health Post",
@@ -5397,7 +5531,8 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Not Normally Available"
+    "BEmOC": "Not Normally Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "No Id",
@@ -5437,12 +5572,13 @@
     "NCD_Clinic": "",
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
-    "BEmOC": ""
+    "BEmOC": "",
+    "Image(s)": ""
   },
   {
     "Facility ID": 384,
     "Facility Name": "IIDTC",
-    "Implementing Agency": "IOM  -  International Organization for Migration",
+    "Implementing Agency": "IOM - International Organization for Migration",
     "Camp Name": "Camp 20 Extension",
     "Block Name": "N/A",
     "Facility Type": "Health Post",
@@ -5477,7 +5613,8 @@
     "NCD_Clinic": "",
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
-    "BEmOC": ""
+    "BEmOC": "",
+    "Image(s)": ""
   },
   {
     "Facility ID": "No ID",
@@ -5517,12 +5654,13 @@
     "NCD_Clinic": "",
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
-    "BEmOC": ""
+    "BEmOC": "",
+    "Image(s)": ""
   },
   {
     "Facility ID": "HF_191",
     "Facility Name": "MOHFW/IOM/UNHCR-191",
-    "Implementing Agency": "(IOM - International Organization for Migration)",
+    "Implementing Agency": "IOM - International Organization for Migration",
     "Camp Name": "Camp 21",
     "Block Name": "",
     "Facility Type": "Health Post",
@@ -5557,7 +5695,8 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Partially Available"
+    "BEmOC": "Partially Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "HF_532",
@@ -5597,7 +5736,8 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Not Normally Available"
+    "BEmOC": "Not Normally Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "No Id",
@@ -5637,7 +5777,8 @@
     "NCD_Clinic": "",
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
-    "BEmOC": ""
+    "BEmOC": "",
+    "Image(s)": ""
   },
   {
     "Facility ID": "HF_006",
@@ -5677,7 +5818,8 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Not Normally Available"
+    "BEmOC": "Not Normally Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "HF_210",
@@ -5717,7 +5859,8 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Not Normally Available"
+    "BEmOC": "Not Normally Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": 214,
@@ -5757,7 +5900,8 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Not Normally Available"
+    "BEmOC": "Not Normally Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "68HF_197",
@@ -5797,7 +5941,8 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Not Normally Available"
+    "BEmOC": "Not Normally Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "No Id",
@@ -5837,12 +5982,13 @@
     "NCD_Clinic": "",
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
-    "BEmOC": ""
+    "BEmOC": "",
+    "Image(s)": ""
   },
   {
     "Facility ID": 563,
     "Facility Name": "IOM DGHS HP",
-    "Implementing Agency": "IOM  -  International Organization for Migration",
+    "Implementing Agency": "IOM - International Organization for Migration",
     "Camp Name": "Camp 26",
     "Block Name": "C26_E",
     "Facility Type": "Health Post",
@@ -5877,12 +6023,13 @@
     "NCD_Clinic": "",
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
-    "BEmOC": ""
+    "BEmOC": "",
+    "Image(s)": ""
   },
   {
     "Facility ID": "No id",
     "Facility Name": "Health Post",
-    "Implementing Agency": "Basmah Foundation -",
+    "Implementing Agency": "Basmah Foundation",
     "Camp Name": "Camp 26",
     "Block Name": "C26_H",
     "Facility Type": "Health Post",
@@ -5917,12 +6064,13 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Not Normally Available"
+    "BEmOC": "Not Normally Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "HF- 192",
     "Facility Name": "SCI Health Post",
-    "Implementing Agency": "(SCI)",
+    "Implementing Agency": "SCI - Save the Children",
     "Camp Name": "Camp 27",
     "Block Name": "C27_B",
     "Facility Type": "Health Post",
@@ -5957,12 +6105,13 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Not Normally Available"
+    "BEmOC": "Not Normally Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": 594,
     "Facility Name": "GK IPD Nayapara",
-    "Implementing Agency": "GK  -  Gonoshasthaya Kendra",
+    "Implementing Agency": "GK - Gonoshasthaya Kendra",
     "Camp Name": "Nayapara RC",
     "Block Name": "NRC_E",
     "Facility Type": "Health Post",
@@ -5997,12 +6146,13 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Available"
+    "BEmOC": "Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "HP_604",
     "Facility Name": "MHI Health post",
-    "Implementing Agency": "MHI  -  Muslim Hands International",
+    "Implementing Agency": "MHI - Muslim Hands International",
     "Camp Name": "Nayapara RC",
     "Block Name": "NRC_I",
     "Facility Type": "Health Post",
@@ -6037,12 +6187,13 @@
     "NCD_Clinic": "",
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
-    "BEmOC": ""
+    "BEmOC": "",
+    "Image(s)": ""
   },
   {
     "Facility ID": "HF_132",
     "Facility Name": "MSF/OCP-132",
-    "Implementing Agency": "MSF",
+    "Implementing Agency": "MSF - Medecins Sans Frontieres",
     "Camp Name": "Camp 13",
     "Block Name": "C13_C",
     "Facility Type": "Other specialised",
@@ -6077,12 +6228,13 @@
     "NCD_Clinic": "Available",
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Not Normally Available"
+    "BEmOC": "Not Normally Available",
+    "Image(s)": ""
   },
   {
     "Facility ID": "HF_087",
     "Facility Name": "MSF OCA-087",
-    "Implementing Agency": "MSF",
+    "Implementing Agency": "MSF - Medecins Sans Frontieres",
     "Camp Name": "Camp 09",
     "Block Name": "C09_G",
     "Facility Type": "Other specialised",
@@ -6117,46 +6269,7 @@
     "NCD_Clinic": "Not Normally Available",
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
-    "BEmOC": "Not Normally Available"
-  },
-  {
-    "Facility ID": "",
-    "Facility Name": "BRAC 454",
-    "Implementing Agency": "",
-    "Camp Name": "",
-    "Block Name": "",
-    "Facility Type": "",
-    "Longitude": "",
-    "Latitude": "",
-    "Structure Type": "",
-    "Status": "",
-    "Disability Access": "",
-    "Target Population": "",
-    "RiskLand": "",
-    "RiskFlood": "",
-    "Number of Inpatient Beds": "",
-    "Intensive Care Unit (ICU) beds": "",
-    "Number of Maternity Beds": "",
-    "Tuberculosis": "",
-    "Basic_Lab": "",
-    "Basic_X_Ray": "",
-    "Hemodialysis_Unit": "",
-    "Lab_Secondary": "",
-    "Lab_Tertiary": "",
-    "Outpatient_Secondary": "",
-    "Outpatient_Primary": "",
-    "Radiology_Unit": "",
-    "Referral_Acceptance_and_Capacity": "",
-    "WHO_Basic_Emergency": "",
-    "Antenatal_Care": "",
-    "Asthma_COPD": "",
-    "CVD_Risk_Assessment": "",
-    "Diabetes": "",
-    "Hypertension": "",
-    "Inpatient_Acute_Rehab": "",
-    "NCD_Clinic": "",
-    "Outpatient_Rehab": "",
-    "Prosthetics_Orthotics": "",
-    "BEmOC": ""
+    "BEmOC": "Not Normally Available",
+    "Image(s)": ""
   }
 ]
