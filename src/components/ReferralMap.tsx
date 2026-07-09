@@ -9,6 +9,7 @@ import * as L from "leaflet";
 import MapLegend from "./MapLegend";
 import { useMemo, useState } from "react";
 import FilterPanel from "./FilterPanel";
+import "./ReferralMap.css";
 
 const getMarkerStyle = (type: FacilityType | Blank) => {
   switch (type) {
@@ -123,7 +124,7 @@ const ReferralMap = () => {
 
       <MapContainer
         center={[21.1945, 92.151564]}
-        zoom={14.5}
+        zoom={14}
         scrollWheelZoom={false}
         className="referral-map"
       >
