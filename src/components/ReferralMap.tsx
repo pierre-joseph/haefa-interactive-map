@@ -10,7 +10,6 @@ import MapLegend from "./MapLegend";
 import { useMemo, useState } from "react";
 import FilterPanel from "./FilterPanel";
 import "./ReferralMap.css";
-import { useOfflineTiles } from "../hooks/useOfflineTiles";
 
 const getMarkerStyle = (type: FacilityType | Blank) => {
   switch (type) {
@@ -54,11 +53,6 @@ const createCustomIcon = (facilityType: FacilityType | Blank) => {
   });
 };
 
-const OfflineTileHandler = ({ url, attribution }: { url: string; attribution: string }) => {
-  const map = useMap();
-  useOfflineTiles(map, url, attribution, 12, 16);
-  return null;
-};
 
 const initialFilters = {
   query: "",
@@ -138,10 +132,6 @@ const ReferralMap = () => {
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, tiles courtesy of <a href="https://www.hotosm.org/" target="_blank" rel="noreferrer">Humanitarian OpenStreetMap Team</a>'
           url="https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png"
-        />
-        <OfflineTileHandler
-          url="https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png"
-          attribution='...'
         />
         {filteredFacilities.map((markerData, index) => {
           const latitude = Number(markerData.Latitude);
