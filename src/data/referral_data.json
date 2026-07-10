@@ -25,6 +25,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Not Normally Available",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Available",
@@ -38,6 +39,7 @@
     "Outpatient_Rehab": "Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Available",
+    "Hours": "24/7",
     "Image(s)": ""
   },
   {
@@ -66,6 +68,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Unsure",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Available",
@@ -79,6 +82,7 @@
     "Outpatient_Rehab": "Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Available",
+    "Hours": "24/7",
     "Image(s)": ""
   },
   {
@@ -107,6 +111,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Not Normally Available",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Partially Available",
@@ -120,6 +125,7 @@
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Available",
+    "Hours": "24/7",
     "Image(s)": ""
   },
   {
@@ -148,6 +154,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Unsure",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Partially Available",
@@ -161,6 +168,7 @@
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Partially Available",
+    "Hours": "24/7",
     "Image(s)": ""
   },
   {
@@ -189,6 +197,7 @@
     "Lab_Tertiary": "Partially Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Partially Available",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Available",
@@ -202,6 +211,7 @@
     "Outpatient_Rehab": "Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Available",
+    "Hours": "24/7",
     "Image(s)": ""
   },
   {
@@ -230,6 +240,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Not Normally Available",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Partially Available",
@@ -243,6 +254,7 @@
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Available",
+    "Hours": "24/7",
     "Image(s)": ""
   },
   {
@@ -271,6 +283,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Partially Available",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Partially Available",
@@ -284,6 +297,7 @@
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Available",
+    "Hours": "24/7",
     "Image(s)": ""
   },
   {
@@ -312,6 +326,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Not Normally Available",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Partially Available",
@@ -325,6 +340,7 @@
     "Outpatient_Rehab": "Partially Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Available",
+    "Hours": "24/7",
     "Image(s)": ""
   },
   {
@@ -353,6 +369,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Unsure",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Partially Available",
@@ -366,6 +383,7 @@
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Available",
+    "Hours": "24/7",
     "Image(s)": ""
   },
   {
@@ -394,6 +412,7 @@
     "Lab_Tertiary": "",
     "Outpatient_Secondary": "",
     "Outpatient_Primary": "",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "",
     "Referral_Acceptance_and_Capacity": "",
     "WHO_Basic_Emergency": "",
@@ -407,6 +426,7 @@
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
     "BEmOC": "",
+    "Hours": "24/7",
     "Image(s)": ""
   },
   {
@@ -435,6 +455,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Unsure",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Partially Available",
@@ -448,6 +469,7 @@
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Available",
+    "Hours": "24/7",
     "Image(s)": ""
   },
   {
@@ -476,6 +498,7 @@
     "Lab_Tertiary": "",
     "Outpatient_Secondary": "",
     "Outpatient_Primary": "",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "",
     "Referral_Acceptance_and_Capacity": "",
     "WHO_Basic_Emergency": "",
@@ -489,6 +512,7 @@
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
     "BEmOC": "",
+    "Hours": "24/7",
     "Image(s)": ""
   },
   {
@@ -517,6 +541,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Unsure",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Partially Available",
@@ -530,6 +555,7 @@
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Available",
+    "Hours": "24/7",
     "Image(s)": ""
   },
   {
@@ -558,6 +584,7 @@
     "Lab_Tertiary": "Partially Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Unsure",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Available",
@@ -571,6 +598,7 @@
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Available",
+    "Hours": "24/7",
     "Image(s)": ""
   },
   {
@@ -599,6 +627,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Unsure",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Partially Available",
@@ -612,6 +641,7 @@
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Available",
+    "Hours": "24/7",
     "Image(s)": ""
   },
   {
@@ -640,6 +670,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Not Normally Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Unsure",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Available",
@@ -653,6 +684,7 @@
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Available",
+    "Hours": "24/7",
     "Image(s)": ""
   },
   {
@@ -681,6 +713,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Unsure",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Available",
@@ -694,6 +727,7 @@
     "Outpatient_Rehab": "Available",
     "Prosthetics_Orthotics": "Available",
     "BEmOC": "Available",
+    "Hours": "24/7",
     "Image(s)": ""
   },
   {
@@ -722,6 +756,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Partially Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Not Normally Available",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Available",
@@ -735,6 +770,7 @@
     "Outpatient_Rehab": "Partially Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Available",
+    "Hours": "24/7",
     "Image(s)": ""
   },
   {
@@ -763,6 +799,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Not Normally Available",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Available",
@@ -776,6 +813,7 @@
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Available",
+    "Hours": "24/7",
     "Image(s)": ""
   },
   {
@@ -804,6 +842,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Unsure",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Available",
@@ -817,6 +856,7 @@
     "Outpatient_Rehab": "Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Available",
+    "Hours": "24/7",
     "Image(s)": ""
   },
   {
@@ -845,6 +885,7 @@
     "Lab_Tertiary": "Partially Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Unsure",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Available",
@@ -858,6 +899,7 @@
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Not Normally Available",
+    "Hours": "24/7",
     "Image(s)": ""
   },
   {
@@ -886,6 +928,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Not Normally Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Unsure",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Partially Available",
@@ -899,6 +942,7 @@
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Available",
+    "Hours": "24/7",
     "Image(s)": ""
   },
   {
@@ -927,6 +971,7 @@
     "Lab_Tertiary": "Partially Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Partially Available",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Available",
@@ -940,6 +985,7 @@
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Available",
+    "Hours": "24/7",
     "Image(s)": ""
   },
   {
@@ -968,6 +1014,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Partially Available",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Partially Available",
@@ -981,6 +1028,7 @@
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Available",
+    "Hours": "24/7",
     "Image(s)": ""
   },
   {
@@ -1009,6 +1057,7 @@
     "Lab_Tertiary": "",
     "Outpatient_Secondary": "",
     "Outpatient_Primary": "",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "",
     "Referral_Acceptance_and_Capacity": "",
     "WHO_Basic_Emergency": "",
@@ -1022,6 +1071,7 @@
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
     "BEmOC": "",
+    "Hours": "24/7",
     "Image(s)": ""
   },
   {
@@ -1050,6 +1100,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Unsure",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Available",
@@ -1063,6 +1114,7 @@
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Available",
+    "Hours": "24/7",
     "Image(s)": ""
   },
   {
@@ -1091,6 +1143,7 @@
     "Lab_Tertiary": "",
     "Outpatient_Secondary": "",
     "Outpatient_Primary": "",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "",
     "Referral_Acceptance_and_Capacity": "",
     "WHO_Basic_Emergency": "",
@@ -1104,6 +1157,7 @@
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
     "BEmOC": "",
+    "Hours": "24/7",
     "Image(s)": ""
   },
   {
@@ -1132,6 +1186,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Unsure",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Partially Available",
@@ -1145,6 +1200,7 @@
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Available",
+    "Hours": "24/7",
     "Image(s)": ""
   },
   {
@@ -1173,6 +1229,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Unsure",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Available",
@@ -1186,6 +1243,7 @@
     "Outpatient_Rehab": "Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Available",
+    "Hours": "24/7",
     "Image(s)": ""
   },
   {
@@ -1214,6 +1272,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Unsure",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Available",
@@ -1227,6 +1286,7 @@
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Available",
+    "Hours": "24/7",
     "Image(s)": ""
   },
   {
@@ -1255,6 +1315,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Not Normally Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Unsure",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Available",
@@ -1268,6 +1329,7 @@
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Not Normally Available",
+    "Hours": "24/7",
     "Image(s)": ""
   },
   {
@@ -1296,6 +1358,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Not Normally Available",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Partially Available",
@@ -1309,6 +1372,7 @@
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Available",
+    "Hours": "24/7",
     "Image(s)": ""
   },
   {
@@ -1337,6 +1401,7 @@
     "Lab_Tertiary": "",
     "Outpatient_Secondary": "",
     "Outpatient_Primary": "",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "",
     "Referral_Acceptance_and_Capacity": "",
     "WHO_Basic_Emergency": "",
@@ -1350,6 +1415,7 @@
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
     "BEmOC": "",
+    "Hours": "24/7",
     "Image(s)": ""
   },
   {
@@ -1378,6 +1444,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Not Normally Available",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Available",
@@ -1391,6 +1458,7 @@
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Available",
+    "Hours": "24/7",
     "Image(s)": ""
   },
   {
@@ -1419,6 +1487,7 @@
     "Lab_Tertiary": "",
     "Outpatient_Secondary": "",
     "Outpatient_Primary": "",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "",
     "Referral_Acceptance_and_Capacity": "",
     "WHO_Basic_Emergency": "",
@@ -1432,6 +1501,7 @@
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
     "BEmOC": "",
+    "Hours": "24/7",
     "Image(s)": ""
   },
   {
@@ -1460,6 +1530,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Not Normally Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Not Normally Available",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Available",
@@ -1473,6 +1544,7 @@
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Available",
+    "Hours": "24/7",
     "Image(s)": ""
   },
   {
@@ -1501,6 +1573,7 @@
     "Lab_Tertiary": "Partially Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Partially Available",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Available",
@@ -1514,6 +1587,7 @@
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Available",
+    "Hours": "24/7",
     "Image(s)": ""
   },
   {
@@ -1542,6 +1616,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Partially Available",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Partially Available",
@@ -1555,6 +1630,7 @@
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Available",
+    "Hours": "24/7",
     "Image(s)": ""
   },
   {
@@ -1583,6 +1659,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Partially Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Unsure",
     "Referral_Acceptance_and_Capacity": "Not Normally Available",
     "WHO_Basic_Emergency": "Available",
@@ -1596,6 +1673,7 @@
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Available",
+    "Hours": "24/7",
     "Image(s)": ""
   },
   {
@@ -1624,6 +1702,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Unsure",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Partially Available",
@@ -1637,6 +1716,7 @@
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Available",
+    "Hours": "24/7",
     "Image(s)": ""
   },
   {
@@ -1665,6 +1745,7 @@
     "Lab_Tertiary": "",
     "Outpatient_Secondary": "",
     "Outpatient_Primary": "",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "",
     "Referral_Acceptance_and_Capacity": "",
     "WHO_Basic_Emergency": "",
@@ -1678,6 +1759,7 @@
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
     "BEmOC": "",
+    "Hours": "24/7",
     "Image(s)": ""
   },
   {
@@ -1706,6 +1788,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Unsure",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Available",
@@ -1719,6 +1802,7 @@
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Available",
+    "Hours": "24/7",
     "Image(s)": ""
   },
   {
@@ -1747,6 +1831,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Unsure",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Available",
@@ -1760,6 +1845,7 @@
     "Outpatient_Rehab": "Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Partially Available",
+    "Hours": "24/7",
     "Image(s)": ""
   },
   {
@@ -1788,6 +1874,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Unsure",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Partially Available",
@@ -1801,6 +1888,7 @@
     "Outpatient_Rehab": "Available",
     "Prosthetics_Orthotics": "Available",
     "BEmOC": "Available",
+    "Hours": "24/7",
     "Image(s)": ""
   },
   {
@@ -1829,6 +1917,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Not Normally Available",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Available",
@@ -1842,6 +1931,7 @@
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Available",
+    "Hours": "24/7",
     "Image(s)": ""
   },
   {
@@ -1870,6 +1960,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Unsure",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Available",
@@ -1883,6 +1974,7 @@
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Available",
+    "Hours": "24/7",
     "Image(s)": ""
   },
   {
@@ -1911,6 +2003,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Not Normally Available",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Partially Available",
@@ -1924,6 +2017,7 @@
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Available",
+    "Hours": "24/7",
     "Image(s)": ""
   },
   {
@@ -1952,6 +2046,7 @@
     "Lab_Tertiary": "",
     "Outpatient_Secondary": "",
     "Outpatient_Primary": "",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "",
     "Referral_Acceptance_and_Capacity": "",
     "WHO_Basic_Emergency": "",
@@ -1965,6 +2060,7 @@
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
     "BEmOC": "",
+    "Hours": "24/7",
     "Image(s)": ""
   },
   {
@@ -1982,30 +2078,32 @@
     "Target Population": "Refugee",
     "RiskLand": "No",
     "RiskFlood": "No",
-    "Number of Inpatient Beds": "",
-    "Intensive Care Unit (ICU) beds": "",
-    "Number of Maternity Beds": "",
-    "Tuberculosis": "",
-    "Basic_Lab": "",
-    "Basic_X_Ray": "",
-    "Hemodialysis_Unit": "",
-    "Lab_Secondary": "",
-    "Lab_Tertiary": "",
-    "Outpatient_Secondary": "",
-    "Outpatient_Primary": "",
-    "Radiology_Unit": "",
-    "Referral_Acceptance_and_Capacity": "",
-    "WHO_Basic_Emergency": "",
-    "Antenatal_Care": "",
-    "Asthma_COPD": "",
-    "CVD_Risk_Assessment": "",
-    "Diabetes": "",
-    "Hypertension": "",
-    "Inpatient_Acute_Rehab": "",
-    "NCD_Clinic": "",
-    "Outpatient_Rehab": "",
-    "Prosthetics_Orthotics": "",
-    "BEmOC": "",
+    "Number of Inpatient Beds": 6,
+    "Intensive Care Unit (ICU) beds": "Not normally provided",
+    "Number of Maternity Beds": 2,
+    "Tuberculosis": "Available",
+    "Basic_Lab": "Available",
+    "Basic_X_Ray": "Partially Available",
+    "Hemodialysis_Unit": "Not Normally Available",
+    "Lab_Secondary": "Available",
+    "Lab_Tertiary": "Partially Available",
+    "Outpatient_Secondary": "Available",
+    "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "Available",
+    "Radiology_Unit": "Not Normally Available",
+    "Referral_Acceptance_and_Capacity": "Available",
+    "WHO_Basic_Emergency": "Partially Available",
+    "Antenatal_Care": "Available",
+    "Asthma_COPD": "Available",
+    "CVD_Risk_Assessment": "Available",
+    "Diabetes": "Available",
+    "Hypertension": "Available",
+    "Inpatient_Acute_Rehab": "Not Normally Available",
+    "NCD_Clinic": "Available",
+    "Outpatient_Rehab": "Available",
+    "Prosthetics_Orthotics": "Not Normally Available",
+    "BEmOC": "Available",
+    "Hours": "24/7",
     "Image(s)": ""
   },
   {
@@ -2034,6 +2132,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Unsure",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Available",
@@ -2047,6 +2146,7 @@
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Available",
+    "Hours": "24/7",
     "Image(s)": ""
   },
   {
@@ -2075,6 +2175,7 @@
     "Lab_Tertiary": "",
     "Outpatient_Secondary": "",
     "Outpatient_Primary": "",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "",
     "Referral_Acceptance_and_Capacity": "",
     "WHO_Basic_Emergency": "",
@@ -2088,6 +2189,7 @@
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
     "BEmOC": "",
+    "Hours": "24/7",
     "Image(s)": ""
   },
   {
@@ -2116,6 +2218,7 @@
     "Lab_Tertiary": "",
     "Outpatient_Secondary": "",
     "Outpatient_Primary": "",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "",
     "Referral_Acceptance_and_Capacity": "",
     "WHO_Basic_Emergency": "",
@@ -2129,6 +2232,7 @@
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
     "BEmOC": "",
+    "Hours": "24/7",
     "Image(s)": ""
   },
   {
@@ -2157,6 +2261,7 @@
     "Lab_Tertiary": "",
     "Outpatient_Secondary": "",
     "Outpatient_Primary": "",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "",
     "Referral_Acceptance_and_Capacity": "",
     "WHO_Basic_Emergency": "",
@@ -2170,6 +2275,7 @@
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
     "BEmOC": "",
+    "Hours": "24/7",
     "Image(s)": ""
   },
   {
@@ -2198,6 +2304,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Not Normally Available",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Partially Available",
@@ -2211,6 +2318,7 @@
     "Outpatient_Rehab": "Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Available",
+    "Hours": "24/7",
     "Image(s)": ""
   },
   {
@@ -2239,6 +2347,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Partially Available",
     "Outpatient_Primary": "Partially Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Not Normally Available",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Partially Available",
@@ -2252,6 +2361,7 @@
     "Outpatient_Rehab": "Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Available",
+    "Hours": "24/7",
     "Image(s)": ""
   },
   {
@@ -2280,6 +2390,7 @@
     "Lab_Tertiary": "Partially Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Partially Available",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Available",
@@ -2293,6 +2404,7 @@
     "Outpatient_Rehab": "Partially Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Available",
+    "Hours": "",
     "Image(s)": ""
   },
   {
@@ -2321,6 +2433,7 @@
     "Lab_Tertiary": "",
     "Outpatient_Secondary": "",
     "Outpatient_Primary": "",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "",
     "Referral_Acceptance_and_Capacity": "",
     "WHO_Basic_Emergency": "",
@@ -2334,6 +2447,7 @@
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
     "BEmOC": "",
+    "Hours": "",
     "Image(s)": ""
   },
   {
@@ -2362,6 +2476,7 @@
     "Lab_Tertiary": "",
     "Outpatient_Secondary": "",
     "Outpatient_Primary": "",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "",
     "Referral_Acceptance_and_Capacity": "",
     "WHO_Basic_Emergency": "",
@@ -2375,6 +2490,7 @@
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
     "BEmOC": "",
+    "Hours": "",
     "Image(s)": ""
   },
   {
@@ -2403,6 +2519,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Not Normally Available",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Available",
@@ -2416,6 +2533,7 @@
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Available",
+    "Hours": "",
     "Image(s)": ""
   },
   {
@@ -2444,6 +2562,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Partially Available",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Available",
@@ -2457,6 +2576,7 @@
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Available",
+    "Hours": "",
     "Image(s)": ""
   },
   {
@@ -2485,6 +2605,7 @@
     "Lab_Tertiary": "Partially Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Partially Available",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Available",
@@ -2498,6 +2619,7 @@
     "Outpatient_Rehab": "Partially Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Available",
+    "Hours": "",
     "Image(s)": ""
   },
   {
@@ -2526,6 +2648,7 @@
     "Lab_Tertiary": "",
     "Outpatient_Secondary": "",
     "Outpatient_Primary": "",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "",
     "Referral_Acceptance_and_Capacity": "",
     "WHO_Basic_Emergency": "",
@@ -2539,6 +2662,7 @@
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
     "BEmOC": "",
+    "Hours": "",
     "Image(s)": ""
   },
   {
@@ -2567,6 +2691,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Partially Available",
     "Outpatient_Primary": "Partially Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Unsure",
     "Referral_Acceptance_and_Capacity": "Partially Available",
     "WHO_Basic_Emergency": "Not Normally Available",
@@ -2580,6 +2705,7 @@
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Not Normally Available",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -2608,6 +2734,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Unsure",
     "Referral_Acceptance_and_Capacity": "Partially Available",
     "WHO_Basic_Emergency": "Partially Available",
@@ -2621,6 +2748,7 @@
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Not Normally Available",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -2649,6 +2777,7 @@
     "Lab_Tertiary": "",
     "Outpatient_Secondary": "",
     "Outpatient_Primary": "",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "",
     "Referral_Acceptance_and_Capacity": "",
     "WHO_Basic_Emergency": "",
@@ -2662,6 +2791,7 @@
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
     "BEmOC": "",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -2690,6 +2820,7 @@
     "Lab_Tertiary": "",
     "Outpatient_Secondary": "",
     "Outpatient_Primary": "",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "",
     "Referral_Acceptance_and_Capacity": "",
     "WHO_Basic_Emergency": "",
@@ -2703,6 +2834,7 @@
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
     "BEmOC": "",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -2724,13 +2856,14 @@
     "Intensive Care Unit (ICU) beds": "Not normally provided",
     "Number of Maternity Beds": "Not normally provided",
     "Tuberculosis": "Not Normally Available",
-    "Basic_Lab": "Partially Available",
+    "Basic_Lab": "Available",
     "Basic_X_Ray": "Not Normally Available",
     "Hemodialysis_Unit": "Not Normally Available",
     "Lab_Secondary": "Not Normally Available",
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Not Normally Available",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Available",
@@ -2744,6 +2877,7 @@
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Not Normally Available",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -2772,6 +2906,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Not Normally Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Unsure",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Partially Available",
@@ -2785,6 +2920,7 @@
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Not Normally Available",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -2813,6 +2949,7 @@
     "Lab_Tertiary": "",
     "Outpatient_Secondary": "",
     "Outpatient_Primary": "",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "",
     "Referral_Acceptance_and_Capacity": "",
     "WHO_Basic_Emergency": "",
@@ -2826,6 +2963,7 @@
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
     "BEmOC": "",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -2854,6 +2992,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Unsure",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Available",
@@ -2867,6 +3006,7 @@
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Not Normally Available",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -2895,6 +3035,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Unsure",
     "Referral_Acceptance_and_Capacity": "Partially Available",
     "WHO_Basic_Emergency": "Partially Available",
@@ -2908,6 +3049,7 @@
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Not Normally Available",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -2936,6 +3078,7 @@
     "Lab_Tertiary": "",
     "Outpatient_Secondary": "",
     "Outpatient_Primary": "",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "",
     "Referral_Acceptance_and_Capacity": "",
     "WHO_Basic_Emergency": "",
@@ -2949,6 +3092,7 @@
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
     "BEmOC": "",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -2977,6 +3121,7 @@
     "Lab_Tertiary": "Partially Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Partially Available",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Available",
@@ -2990,6 +3135,7 @@
     "Outpatient_Rehab": "Partially Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Available",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -3018,6 +3164,7 @@
     "Lab_Tertiary": "",
     "Outpatient_Secondary": "",
     "Outpatient_Primary": "",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "",
     "Referral_Acceptance_and_Capacity": "",
     "WHO_Basic_Emergency": "",
@@ -3031,6 +3178,7 @@
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
     "BEmOC": "",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -3059,6 +3207,7 @@
     "Lab_Tertiary": "",
     "Outpatient_Secondary": "",
     "Outpatient_Primary": "",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "",
     "Referral_Acceptance_and_Capacity": "",
     "WHO_Basic_Emergency": "",
@@ -3072,6 +3221,7 @@
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
     "BEmOC": "",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -3100,6 +3250,7 @@
     "Lab_Tertiary": "",
     "Outpatient_Secondary": "",
     "Outpatient_Primary": "",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "",
     "Referral_Acceptance_and_Capacity": "",
     "WHO_Basic_Emergency": "",
@@ -3113,6 +3264,7 @@
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
     "BEmOC": "",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -3141,6 +3293,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Unsure",
     "Referral_Acceptance_and_Capacity": "Partially Available",
     "WHO_Basic_Emergency": "Partially Available",
@@ -3154,6 +3307,7 @@
     "Outpatient_Rehab": "Partially Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Not Normally Available",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -3182,6 +3336,7 @@
     "Lab_Tertiary": "",
     "Outpatient_Secondary": "",
     "Outpatient_Primary": "",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "",
     "Referral_Acceptance_and_Capacity": "",
     "WHO_Basic_Emergency": "",
@@ -3195,6 +3350,7 @@
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
     "BEmOC": "",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -3223,6 +3379,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Unsure",
     "Referral_Acceptance_and_Capacity": "Partially Available",
     "WHO_Basic_Emergency": "Not Normally Available",
@@ -3236,6 +3393,7 @@
     "Outpatient_Rehab": "Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Not Normally Available",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -3264,6 +3422,7 @@
     "Lab_Tertiary": "",
     "Outpatient_Secondary": "",
     "Outpatient_Primary": "",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "",
     "Referral_Acceptance_and_Capacity": "",
     "WHO_Basic_Emergency": "",
@@ -3277,6 +3436,7 @@
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
     "BEmOC": "",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -3305,6 +3465,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Not Normally Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Unsure",
     "Referral_Acceptance_and_Capacity": "Partially Available",
     "WHO_Basic_Emergency": "Not Normally Available",
@@ -3318,6 +3479,7 @@
     "Outpatient_Rehab": "Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Not Normally Available",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -3346,6 +3508,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Partially Available",
     "Outpatient_Primary": "Partially Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Unsure",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Partially Available",
@@ -3359,6 +3522,7 @@
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Not Normally Available",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -3387,6 +3551,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Unsure",
     "Referral_Acceptance_and_Capacity": "Partially Available",
     "WHO_Basic_Emergency": "Not Normally Available",
@@ -3400,6 +3565,7 @@
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Not Normally Available",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -3428,6 +3594,7 @@
     "Lab_Tertiary": "",
     "Outpatient_Secondary": "",
     "Outpatient_Primary": "",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "",
     "Referral_Acceptance_and_Capacity": "",
     "WHO_Basic_Emergency": "",
@@ -3441,6 +3608,7 @@
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
     "BEmOC": "",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -3469,6 +3637,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Unsure",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Partially Available",
@@ -3482,6 +3651,7 @@
     "Outpatient_Rehab": "Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Not Normally Available",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -3510,6 +3680,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Unsure",
     "Referral_Acceptance_and_Capacity": "Partially Available",
     "WHO_Basic_Emergency": "Partially Available",
@@ -3523,6 +3694,7 @@
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Not Normally Available",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -3551,6 +3723,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Unsure",
     "Referral_Acceptance_and_Capacity": "Partially Available",
     "WHO_Basic_Emergency": "Partially Available",
@@ -3564,6 +3737,7 @@
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Not Normally Available",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -3592,6 +3766,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Unsure",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Available",
@@ -3605,6 +3780,7 @@
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Not Normally Available",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -3633,6 +3809,7 @@
     "Lab_Tertiary": "",
     "Outpatient_Secondary": "",
     "Outpatient_Primary": "",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "",
     "Referral_Acceptance_and_Capacity": "",
     "WHO_Basic_Emergency": "",
@@ -3646,6 +3823,7 @@
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
     "BEmOC": "",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -3674,6 +3852,7 @@
     "Lab_Tertiary": "",
     "Outpatient_Secondary": "",
     "Outpatient_Primary": "",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "",
     "Referral_Acceptance_and_Capacity": "",
     "WHO_Basic_Emergency": "",
@@ -3687,6 +3866,7 @@
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
     "BEmOC": "",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -3715,6 +3895,7 @@
     "Lab_Tertiary": "Partially Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Unsure",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Partially Available",
@@ -3728,6 +3909,7 @@
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Not Normally Available",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -3756,6 +3938,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Not Normally Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Unsure",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Available",
@@ -3769,6 +3952,7 @@
     "Outpatient_Rehab": "Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Not Normally Available",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -3797,6 +3981,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Unsure",
     "Referral_Acceptance_and_Capacity": "Partially Available",
     "WHO_Basic_Emergency": "Partially Available",
@@ -3810,6 +3995,7 @@
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Not Normally Available",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -3838,6 +4024,7 @@
     "Lab_Tertiary": "",
     "Outpatient_Secondary": "",
     "Outpatient_Primary": "",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "",
     "Referral_Acceptance_and_Capacity": "",
     "WHO_Basic_Emergency": "",
@@ -3851,6 +4038,7 @@
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
     "BEmOC": "",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -3879,6 +4067,7 @@
     "Lab_Tertiary": "",
     "Outpatient_Secondary": "",
     "Outpatient_Primary": "",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "",
     "Referral_Acceptance_and_Capacity": "",
     "WHO_Basic_Emergency": "",
@@ -3892,6 +4081,7 @@
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
     "BEmOC": "",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -3920,6 +4110,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Partially Available",
     "Outpatient_Primary": "Partially Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Unsure",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Partially Available",
@@ -3933,6 +4124,7 @@
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Not Normally Available",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -3961,6 +4153,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Unsure",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Available",
@@ -3974,6 +4167,7 @@
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Not Normally Available",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -4002,6 +4196,7 @@
     "Lab_Tertiary": "",
     "Outpatient_Secondary": "",
     "Outpatient_Primary": "",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "",
     "Referral_Acceptance_and_Capacity": "",
     "WHO_Basic_Emergency": "",
@@ -4015,6 +4210,7 @@
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
     "BEmOC": "",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -4043,6 +4239,7 @@
     "Lab_Tertiary": "",
     "Outpatient_Secondary": "",
     "Outpatient_Primary": "",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "",
     "Referral_Acceptance_and_Capacity": "",
     "WHO_Basic_Emergency": "",
@@ -4056,6 +4253,7 @@
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
     "BEmOC": "",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -4084,6 +4282,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Unsure",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Not Normally Available",
@@ -4097,6 +4296,7 @@
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Not Normally Available",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -4125,6 +4325,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Not Normally Available",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Not Normally Available",
@@ -4138,6 +4339,7 @@
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Not Normally Available",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -4166,6 +4368,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Unsure",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Available",
@@ -4179,6 +4382,7 @@
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Not Normally Available",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -4207,6 +4411,7 @@
     "Lab_Tertiary": "",
     "Outpatient_Secondary": "",
     "Outpatient_Primary": "",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "",
     "Referral_Acceptance_and_Capacity": "",
     "WHO_Basic_Emergency": "",
@@ -4220,6 +4425,7 @@
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
     "BEmOC": "",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -4248,6 +4454,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Unsure",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Partially Available",
@@ -4261,6 +4468,7 @@
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Available",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -4289,6 +4497,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Unsure",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Available",
@@ -4302,6 +4511,7 @@
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Not Normally Available",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -4330,6 +4540,7 @@
     "Lab_Tertiary": "",
     "Outpatient_Secondary": "",
     "Outpatient_Primary": "",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "",
     "Referral_Acceptance_and_Capacity": "",
     "WHO_Basic_Emergency": "",
@@ -4343,6 +4554,7 @@
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
     "BEmOC": "",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -4371,6 +4583,7 @@
     "Lab_Tertiary": "",
     "Outpatient_Secondary": "",
     "Outpatient_Primary": "",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "",
     "Referral_Acceptance_and_Capacity": "",
     "WHO_Basic_Emergency": "",
@@ -4384,6 +4597,7 @@
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
     "BEmOC": "",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -4412,6 +4626,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Unsure",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Partially Available",
@@ -4425,6 +4640,7 @@
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Not Normally Available",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -4453,6 +4669,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Unsure",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Available",
@@ -4466,6 +4683,7 @@
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Not Normally Available",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -4494,6 +4712,7 @@
     "Lab_Tertiary": "",
     "Outpatient_Secondary": "",
     "Outpatient_Primary": "",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "",
     "Referral_Acceptance_and_Capacity": "",
     "WHO_Basic_Emergency": "",
@@ -4507,6 +4726,7 @@
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
     "BEmOC": "",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -4535,6 +4755,7 @@
     "Lab_Tertiary": "",
     "Outpatient_Secondary": "",
     "Outpatient_Primary": "",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "",
     "Referral_Acceptance_and_Capacity": "",
     "WHO_Basic_Emergency": "",
@@ -4548,6 +4769,7 @@
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
     "BEmOC": "",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -4576,6 +4798,7 @@
     "Lab_Tertiary": "",
     "Outpatient_Secondary": "",
     "Outpatient_Primary": "",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "",
     "Referral_Acceptance_and_Capacity": "",
     "WHO_Basic_Emergency": "",
@@ -4589,6 +4812,7 @@
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
     "BEmOC": "",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -4617,6 +4841,7 @@
     "Lab_Tertiary": "",
     "Outpatient_Secondary": "",
     "Outpatient_Primary": "",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "",
     "Referral_Acceptance_and_Capacity": "",
     "WHO_Basic_Emergency": "",
@@ -4630,12 +4855,13 @@
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
     "BEmOC": "",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
     "Facility ID": "No Id",
     "Facility Name": "Basmah Health post",
-    "Implementing Agency": "Basmah Foundation",
+    "Implementing Agency": "Basmah Foundation -",
     "Camp Name": "Camp 14",
     "Block Name": "C14_E",
     "Facility Type": "Health Post",
@@ -4658,6 +4884,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Partially Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Unsure",
     "Referral_Acceptance_and_Capacity": "Not Normally Available",
     "WHO_Basic_Emergency": "Not Normally Available",
@@ -4671,6 +4898,7 @@
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Not Normally Available",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -4699,6 +4927,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Unsure",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Partially Available",
@@ -4712,6 +4941,7 @@
     "Outpatient_Rehab": "Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Not Normally Available",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -4740,6 +4970,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Unsure",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Partially Available",
@@ -4753,6 +4984,7 @@
     "Outpatient_Rehab": "Partially Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Not Normally Available",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -4781,6 +5013,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Not Normally Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Unsure",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Available",
@@ -4794,6 +5027,7 @@
     "Outpatient_Rehab": "Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Available",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -4822,6 +5056,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Partially Available",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Available",
@@ -4835,6 +5070,7 @@
     "Outpatient_Rehab": "Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Available",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -4863,6 +5099,7 @@
     "Lab_Tertiary": "",
     "Outpatient_Secondary": "",
     "Outpatient_Primary": "",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "",
     "Referral_Acceptance_and_Capacity": "",
     "WHO_Basic_Emergency": "",
@@ -4876,6 +5113,7 @@
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
     "BEmOC": "",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -4904,6 +5142,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Unsure",
     "Referral_Acceptance_and_Capacity": "Not Normally Available",
     "WHO_Basic_Emergency": "Not Normally Available",
@@ -4917,6 +5156,7 @@
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Not Normally Available",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -4945,6 +5185,7 @@
     "Lab_Tertiary": "",
     "Outpatient_Secondary": "",
     "Outpatient_Primary": "",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "",
     "Referral_Acceptance_and_Capacity": "",
     "WHO_Basic_Emergency": "",
@@ -4958,6 +5199,7 @@
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
     "BEmOC": "",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -4986,6 +5228,7 @@
     "Lab_Tertiary": "",
     "Outpatient_Secondary": "",
     "Outpatient_Primary": "",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "",
     "Referral_Acceptance_and_Capacity": "",
     "WHO_Basic_Emergency": "",
@@ -4999,6 +5242,7 @@
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
     "BEmOC": "",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -5027,6 +5271,7 @@
     "Lab_Tertiary": "",
     "Outpatient_Secondary": "",
     "Outpatient_Primary": "",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "",
     "Referral_Acceptance_and_Capacity": "",
     "WHO_Basic_Emergency": "",
@@ -5040,6 +5285,7 @@
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
     "BEmOC": "",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -5068,6 +5314,7 @@
     "Lab_Tertiary": "",
     "Outpatient_Secondary": "",
     "Outpatient_Primary": "",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "",
     "Referral_Acceptance_and_Capacity": "",
     "WHO_Basic_Emergency": "",
@@ -5081,6 +5328,7 @@
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
     "BEmOC": "",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -5109,6 +5357,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Unsure",
     "Referral_Acceptance_and_Capacity": "Partially Available",
     "WHO_Basic_Emergency": "Not Normally Available",
@@ -5122,6 +5371,7 @@
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Not Normally Available",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -5150,6 +5400,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Unsure",
     "Referral_Acceptance_and_Capacity": "Not Normally Available",
     "WHO_Basic_Emergency": "Not Normally Available",
@@ -5163,6 +5414,7 @@
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Not Normally Available",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -5191,6 +5443,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Not Normally Available",
     "Referral_Acceptance_and_Capacity": "Partially Available",
     "WHO_Basic_Emergency": "Not Normally Available",
@@ -5204,6 +5457,7 @@
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Not Normally Available",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -5232,6 +5486,7 @@
     "Lab_Tertiary": "",
     "Outpatient_Secondary": "",
     "Outpatient_Primary": "",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "",
     "Referral_Acceptance_and_Capacity": "",
     "WHO_Basic_Emergency": "",
@@ -5245,6 +5500,7 @@
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
     "BEmOC": "",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -5273,6 +5529,7 @@
     "Lab_Tertiary": "",
     "Outpatient_Secondary": "",
     "Outpatient_Primary": "",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "",
     "Referral_Acceptance_and_Capacity": "",
     "WHO_Basic_Emergency": "",
@@ -5286,6 +5543,7 @@
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
     "BEmOC": "",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -5314,6 +5572,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Unsure",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Available",
@@ -5327,6 +5586,7 @@
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Not Normally Available",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -5355,6 +5615,7 @@
     "Lab_Tertiary": "",
     "Outpatient_Secondary": "",
     "Outpatient_Primary": "",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "",
     "Referral_Acceptance_and_Capacity": "",
     "WHO_Basic_Emergency": "",
@@ -5368,6 +5629,7 @@
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
     "BEmOC": "",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -5396,6 +5658,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Not Normally Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Unsure",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Not Normally Available",
@@ -5409,6 +5672,7 @@
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Not Normally Available",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -5437,6 +5701,7 @@
     "Lab_Tertiary": "",
     "Outpatient_Secondary": "",
     "Outpatient_Primary": "",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "",
     "Referral_Acceptance_and_Capacity": "",
     "WHO_Basic_Emergency": "",
@@ -5450,6 +5715,7 @@
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
     "BEmOC": "",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -5478,6 +5744,7 @@
     "Lab_Tertiary": "",
     "Outpatient_Secondary": "",
     "Outpatient_Primary": "",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "",
     "Referral_Acceptance_and_Capacity": "",
     "WHO_Basic_Emergency": "",
@@ -5491,6 +5758,7 @@
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
     "BEmOC": "",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -5519,6 +5787,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Unsure",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Partially Available",
@@ -5532,6 +5801,7 @@
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Not Normally Available",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -5560,6 +5830,7 @@
     "Lab_Tertiary": "",
     "Outpatient_Secondary": "",
     "Outpatient_Primary": "",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "",
     "Referral_Acceptance_and_Capacity": "",
     "WHO_Basic_Emergency": "",
@@ -5573,6 +5844,7 @@
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
     "BEmOC": "",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -5601,6 +5873,7 @@
     "Lab_Tertiary": "",
     "Outpatient_Secondary": "",
     "Outpatient_Primary": "",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "",
     "Referral_Acceptance_and_Capacity": "",
     "WHO_Basic_Emergency": "",
@@ -5614,6 +5887,7 @@
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
     "BEmOC": "",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -5642,6 +5916,7 @@
     "Lab_Tertiary": "",
     "Outpatient_Secondary": "",
     "Outpatient_Primary": "",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "",
     "Referral_Acceptance_and_Capacity": "",
     "WHO_Basic_Emergency": "",
@@ -5655,6 +5930,7 @@
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
     "BEmOC": "",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -5683,6 +5959,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Unsure",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Available",
@@ -5696,6 +5973,7 @@
     "Outpatient_Rehab": "Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Partially Available",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -5724,6 +6002,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Unsure",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Available",
@@ -5737,6 +6016,7 @@
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Not Normally Available",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -5765,6 +6045,7 @@
     "Lab_Tertiary": "",
     "Outpatient_Secondary": "",
     "Outpatient_Primary": "",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "",
     "Referral_Acceptance_and_Capacity": "",
     "WHO_Basic_Emergency": "",
@@ -5778,6 +6059,7 @@
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
     "BEmOC": "",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -5806,6 +6088,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Unsure",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Not Normally Available",
@@ -5819,6 +6102,7 @@
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Not Normally Available",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -5847,6 +6131,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Not Normally Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Unsure",
     "Referral_Acceptance_and_Capacity": "Not Normally Available",
     "WHO_Basic_Emergency": "Not Normally Available",
@@ -5860,6 +6145,7 @@
     "Outpatient_Rehab": "Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Not Normally Available",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -5888,6 +6174,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Unsure",
     "Referral_Acceptance_and_Capacity": "Not Normally Available",
     "WHO_Basic_Emergency": "Not Normally Available",
@@ -5901,6 +6188,7 @@
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Not Normally Available",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -5929,6 +6217,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Unsure",
     "Referral_Acceptance_and_Capacity": "Not Normally Available",
     "WHO_Basic_Emergency": "Not Normally Available",
@@ -5942,6 +6231,7 @@
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Not Normally Available",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -5970,6 +6260,7 @@
     "Lab_Tertiary": "",
     "Outpatient_Secondary": "",
     "Outpatient_Primary": "",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "",
     "Referral_Acceptance_and_Capacity": "",
     "WHO_Basic_Emergency": "",
@@ -5983,6 +6274,7 @@
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
     "BEmOC": "",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -6011,6 +6303,7 @@
     "Lab_Tertiary": "",
     "Outpatient_Secondary": "",
     "Outpatient_Primary": "",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "",
     "Referral_Acceptance_and_Capacity": "",
     "WHO_Basic_Emergency": "",
@@ -6024,12 +6317,13 @@
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
     "BEmOC": "",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
     "Facility ID": "No id",
     "Facility Name": "Health Post",
-    "Implementing Agency": "Basmah Foundation",
+    "Implementing Agency": "Basmah Foundation -",
     "Camp Name": "Camp 26",
     "Block Name": "C26_H",
     "Facility Type": "Health Post",
@@ -6052,6 +6346,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Partially Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Unsure",
     "Referral_Acceptance_and_Capacity": "Not Normally Available",
     "WHO_Basic_Emergency": "Not Normally Available",
@@ -6065,6 +6360,7 @@
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Not Normally Available",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -6093,6 +6389,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Unsure",
     "Referral_Acceptance_and_Capacity": "Partially Available",
     "WHO_Basic_Emergency": "Partially Available",
@@ -6106,6 +6403,7 @@
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Not Normally Available",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -6134,6 +6432,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Available",
     "Outpatient_Primary": "Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Not Normally Available",
     "Referral_Acceptance_and_Capacity": "Not Normally Available",
     "WHO_Basic_Emergency": "Partially Available",
@@ -6147,6 +6446,7 @@
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Available",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -6175,6 +6475,7 @@
     "Lab_Tertiary": "",
     "Outpatient_Secondary": "",
     "Outpatient_Primary": "",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "",
     "Referral_Acceptance_and_Capacity": "",
     "WHO_Basic_Emergency": "",
@@ -6188,6 +6489,7 @@
     "Outpatient_Rehab": "",
     "Prosthetics_Orthotics": "",
     "BEmOC": "",
+    "Hours": "8 AM - 4 PM",
     "Image(s)": ""
   },
   {
@@ -6216,6 +6518,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Unsure",
     "Outpatient_Primary": "Not Normally Available",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Unsure",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Not Normally Available",
@@ -6229,6 +6532,7 @@
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Not Normally Available",
+    "Hours": "",
     "Image(s)": ""
   },
   {
@@ -6257,6 +6561,7 @@
     "Lab_Tertiary": "Not Normally Available",
     "Outpatient_Secondary": "Unsure",
     "Outpatient_Primary": "Unsure",
+    "Pyschological First Aid": "",
     "Radiology_Unit": "Unsure",
     "Referral_Acceptance_and_Capacity": "Available",
     "WHO_Basic_Emergency": "Not Normally Available",
@@ -6270,6 +6575,7 @@
     "Outpatient_Rehab": "Not Normally Available",
     "Prosthetics_Orthotics": "Not Normally Available",
     "BEmOC": "Not Normally Available",
+    "Hours": "",
     "Image(s)": ""
   }
 ]

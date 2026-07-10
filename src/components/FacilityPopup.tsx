@@ -47,6 +47,7 @@ export type FacilityRecord = {
   Outpatient_Rehab?: SpecialtyResponse | Blank;
   Prosthetics_Orthotics?: SpecialtyResponse | Blank;
   BEmOC?: SpecialtyResponse | Blank;
+  Hours?: string | Blank;
 };
 
 type FacilityPopupProps = {
@@ -194,6 +195,10 @@ const FacilityPopup = ({ facility }: FacilityPopupProps) => {
             <div>
               <dt>Agency</dt>
               <dd>{formatValue(facility["Implementing Agency"])}</dd>
+            </div>
+            <div>
+              <dt>Hours</dt>
+              <dd>{formatValue(facility.Hours)}</dd>
             </div>
             <div>
               <dt>Camp</dt>

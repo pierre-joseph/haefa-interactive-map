@@ -1,4 +1,4 @@
-import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
+import { MapContainer, Marker, Popup, TileLayer, useMap } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import ReferralDataMarkers from "../data/referral_data.json";
 import FacilityPopup from "./FacilityPopup";
@@ -10,6 +10,7 @@ import MapLegend from "./MapLegend";
 import { useMemo, useState } from "react";
 import FilterPanel from "./FilterPanel";
 import "./ReferralMap.css";
+import { useOfflineTiles } from "../hooks/useOfflineTiles";
 
 const getMarkerStyle = (type: FacilityType | Blank) => {
   switch (type) {
@@ -51,6 +52,12 @@ const createCustomIcon = (facilityType: FacilityType | Blank) => {
     iconAnchor: [18, 18],
     popupAnchor: [0, -18]
   });
+};
+
+const OfflineTileHandler = ({ url, attribution }: { url: string; attribution: string }) => {
+  const map = useMap();
+  useOfflineTiles(map, url, attribution, 12, 16);
+  return null;
 };
 
 const initialFilters = {
@@ -131,6 +138,10 @@ const ReferralMap = () => {
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, tiles courtesy of <a href="https://www.hotosm.org/" target="_blank" rel="noreferrer">Humanitarian OpenStreetMap Team</a>'
           url="https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png"
+        />
+        <OfflineTileHandler
+          url="https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png"
+          attribution='...'
         />
         {filteredFacilities.map((markerData, index) => {
           const latitude = Number(markerData.Latitude);
