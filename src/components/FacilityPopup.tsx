@@ -34,6 +34,7 @@ export type FacilityRecord = {
   Lab_Tertiary?: SpecialtyResponse | Blank;
   Outpatient_Secondary?: SpecialtyResponse | Blank;
   Outpatient_Primary?: SpecialtyResponse | Blank;
+  Pyschological_First_Aid?: SpecialtyResponse | Blank;
   Radiology_Unit?: SpecialtyResponse | Blank;
   Referral_Acceptance_and_Capacity?: SpecialtyResponse | Blank;
   WHO_Basic_Emergency?: SpecialtyResponse | Blank;
@@ -43,6 +44,7 @@ export type FacilityRecord = {
   Diabetes?: SpecialtyResponse | Blank;
   Hypertension?: SpecialtyResponse | Blank;
   Inpatient_Acute_Rehab?: SpecialtyResponse | Blank;
+  Mental_Disorder_Management?: SpecialtyResponse | Blank;
   NCD_Clinic?: SpecialtyResponse | Blank;
   Outpatient_Rehab?: SpecialtyResponse | Blank;
   Prosthetics_Orthotics?: SpecialtyResponse | Blank;
@@ -63,7 +65,7 @@ export const serviceFields = [
   { key: "Lab_Tertiary", label: "Tertiary lab" },
   { key: "Outpatient_Secondary", label: "Secondary outpatient" },
   { key: "Outpatient_Primary", label: "Primary outpatient" },
-  { key: "Radiology_Unit", label: "Radiology" },
+  { key: "Pyschological First Aid", label: "Psychological first aid" },
   { key: "Referral_Acceptance_and_Capacity", label: "Referral capacity" },
   { key: "WHO_Basic_Emergency", label: "Emergency care" },
   { key: "Antenatal_Care", label: "Antenatal care" },
@@ -72,6 +74,7 @@ export const serviceFields = [
   { key: "Diabetes", label: "Diabetes care" },
   { key: "Hypertension", label: "Hypertension care" },
   { key: "Inpatient_Acute_Rehab", label: "Acute rehab" },
+  { key: "Mental_Disorder_Management", label: "Mental disorder management" },
   { key: "NCD_Clinic", label: "NCD clinic" },
   { key: "Outpatient_Rehab", label: "Rehabilitation" },
   { key: "Prosthetics_Orthotics", label: "Prosthetics/orthotics" },
