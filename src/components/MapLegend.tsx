@@ -1,4 +1,4 @@
-import { Stethoscope, Activity, Hospital, Pill } from 'lucide-react';
+import { BedDouble, Hospital, Cross, Syringe } from "lucide-react";
 import "./MapLegend.css";
 
 const MapLegend = () => {
@@ -6,7 +6,7 @@ const MapLegend = () => {
     {
       type: 'Primary Health Center',
       color: '#2563eb',
-      Icon: Stethoscope,
+      Icon: BedDouble,
       description: 'Frontline outpatient and routine care'
       },
     {
@@ -18,13 +18,13 @@ const MapLegend = () => {
     {
       type: 'Health Post',
       color: '#16a34a',
-      Icon: Activity,
+      Icon: Cross,
       description: 'Community-level access point'
     },
     {
       type: 'Specialized Clinic',
       color: '#ea580c',
-      Icon: Pill,
+      Icon: Syringe,
       description: 'Targeted services such as NCD or specialty care'
     },
   ];

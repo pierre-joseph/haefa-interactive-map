@@ -1,26 +1,27 @@
-import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
+import { useMemo, useState, useRef } from "react";
+import { renderToStaticMarkup } from "react-dom/server";
+import { BedDouble, Hospital, Cross, Syringe } from "lucide-react";
+import { MapContainer, Marker, Popup, TileLayer, GeoJSON } from "react-leaflet";
+import * as L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import ReferralDataMarkers from "../data/referral_data.json";
+import campGeoJson from "../data/camp_outlines.json";
 import FacilityPopup from "./FacilityPopup";
 import type { FacilityRecord, FacilityType, Blank } from "./FacilityPopup";
-import { renderToStaticMarkup } from "react-dom/server";
-import { Activity, Hospital, Pill, Stethoscope } from "lucide-react";
-import * as L from "leaflet";
 import MapLegend from "./MapLegend";
-import { useMemo, useState } from "react";
 import FilterPanel from "./FilterPanel";
 import "./ReferralMap.css";
 
 const getMarkerStyle = (type: FacilityType | Blank) => {
   switch (type) {
     case 'Primary Health Center':
-      return { color: '#2563eb', Icon: Stethoscope };
+      return { color: '#2563eb', Icon: BedDouble };
     case 'Secondary Health Facility':
       return { color: '#dc2626', Icon: Hospital };
     case 'Health Post':
-      return { color: '#16a34a', Icon: Activity };
+      return { color: '#16a34a', Icon: Cross };
     default:
-      return { color: '#ea580c', Icon: Pill };
+      return { color: '#ea580c', Icon: Syringe };
   }
 };
 
@@ -52,7 +53,6 @@ const createCustomIcon = (facilityType: FacilityType | Blank) => {
     popupAnchor: [0, -18]
   });
 };
-
 
 const initialFilters = {
   query: "",
@@ -88,7 +88,6 @@ const hasAgencies = (facility: FacilityRecord, agencies: string[]) => {
   return agencies.includes(facility["Implementing Agency"] as string);
 };
 
-
 const hasServices = (facility: FacilityRecord, services: string[]) => {
   if (!services || services.length === 0) return true;
   return services.every((s) => facility[s as keyof FacilityRecord] === "Available");
@@ -101,6 +100,7 @@ const matchesLocation = (facility: FacilityRecord, camps: string[]) => {
 
 const ReferralMap = () => {
   const [filters, setFilters] = useState(initialFilters);
+  const geoJsonRef = useRef<L.GeoJSON | null>(null);
 
   const facilities = ReferralDataMarkers as FacilityRecord[];
 
@@ -119,6 +119,39 @@ const ReferralMap = () => {
     });
   }, [facilities, filters]);
 
+
+  const getCampStyle = (feature: any) => {
+    const campName = feature.properties.NPMCamp;
+    const isSelected = filters.camps.includes(campName);
+
+    return {
+      fillColor: isSelected ? '#2563eb' : '#64748b',
+      fillOpacity: isSelected ? 0.25 : 0.05,
+      color: isSelected ? '#1d4ed8' : '#64748b',
+      weight: isSelected ? 3 : 1,
+      dashArray: isSelected ? '' : '4, 4',
+    };
+  };
+
+  const onEachCamp = (feature: any, layer: L.Layer) => {
+    const campName = feature.properties.NPMCamp;
+
+    layer.on({
+      click: () => {
+        setFilters((prev) => ({
+          ...prev,
+          camps: prev.camps.includes(campName)
+            ? prev.camps.filter((c) => c !== campName)
+            : [...prev.camps, campName],
+        }));
+      },
+    });
+
+    if (campName) {
+      layer.bindTooltip(`<b>${campName}</b>`, { sticky: true });
+    }
+  };
+
   return (
     <div className="referral-map__wrap">
       <FilterPanel facilities={facilities} filters={filters} onChange={setFilters} />
@@ -133,12 +166,25 @@ const ReferralMap = () => {
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, tiles courtesy of <a href="https://www.hotosm.org/" target="_blank" rel="noreferrer">Humanitarian OpenStreetMap Team</a>'
           url="https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png"
         />
+
+        <GeoJSON
+          key={filters.camps.join(',')} 
+          ref={geoJsonRef}
+          data={campGeoJson as any}
+          style={getCampStyle}
+          onEachFeature={onEachCamp}
+        />
+
         {filteredFacilities.map((markerData, index) => {
           const latitude = Number(markerData.Latitude);
           const longitude = Number(markerData.Longitude);
 
           return (
-            <Marker key={`${markerData["Facility Name"] || "facility"}-${index}`} position={[latitude, longitude]} icon={createCustomIcon(markerData["Facility Type"]) }>
+            <Marker 
+              key={`${markerData["Facility Name"] || "facility"}-${index}`} 
+              position={[latitude, longitude]} 
+              icon={createCustomIcon(markerData["Facility Type"])}
+            >
               <Popup>
                 <FacilityPopup facility={markerData} />
               </Popup>

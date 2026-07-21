@@ -81,7 +81,7 @@ const FilterPanel = ({ facilities, filters, onChange }: Props) => {
           Search
           <input
             type="search"
-            placeholder="Name, agency, type, camp..."
+            placeholder="Search for facilities..."
             value={filters.query}
             onChange={(e) => onChange({ ...filters, query: e.target.value })}
           />
