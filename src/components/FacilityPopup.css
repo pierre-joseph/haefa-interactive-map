@@ -1,4 +1,3 @@
-
 .fpop {
   --fpop-ink: #0f172a;
   --fpop-muted: #64748b;
@@ -69,17 +68,6 @@
   letter-spacing: 0.04em;
 }
 
-/* signature element: a thin bar summarizing specialty coverage at a glance */
-.fpop__strip {
-  display: flex;
-  height: 5px;
-  width: 100%;
-}
-
-.fpop__strip-seg {
-  flex: 1;
-}
-
 .fpop__tabs {
   display: flex;
   border-bottom: 1px solid var(--fpop-border);
@@ -142,10 +130,75 @@
   margin: 4px 0;
 }
 
+.fpop__category {
+  border: 1px solid var(--fpop-border);
+  border-radius: 10px;
+  margin-top: 8px;
+  overflow: hidden;
+}
+
+.fpop__category:first-child {
+  margin-top: 0;
+}
+
+.fpop__category summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 8px 10px;
+  cursor: pointer;
+  list-style: none;
+  background: rgba(15, 23, 42, 0.03);
+  transition: background 0.15s ease;
+}
+
+.fpop__category summary:hover {
+  background: rgba(15, 23, 42, 0.06);
+}
+
+.fpop__category summary::-webkit-details-marker {
+  display: none;
+}
+.fpop__category summary::marker {
+  content: "";
+}
+
+.fpop__category-title {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 10.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--fpop-ink);
+}
+
+.fpop__category-chevron {
+  flex-shrink: 0;
+  color: var(--fpop-muted);
+  transition: transform 0.15s ease;
+}
+
+.fpop__category[open] .fpop__category-chevron {
+  transform: rotate(90deg);
+}
+
+.fpop__category-count {
+  font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  font-size: 10.5px;
+  font-weight: 600;
+  color: var(--fpop-muted);
+  background: rgba(15, 23, 42, 0.05);
+  padding: 1px 6px;
+  border-radius: 999px;
+}
+
 .fpop__services {
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 2px 10px 10px;
   display: flex;
   flex-direction: column;
   gap: 6px;
@@ -234,11 +287,6 @@
 .fpop__dot.is-partial { background: var(--fpop-partial); }
 .fpop__dot.is-unavailable { background: var(--fpop-unavailable); }
 .fpop__dot.is-unsure { background: var(--fpop-unsure); }
-
-.fpop__strip-seg.is-available { background: var(--fpop-available); }
-.fpop__strip-seg.is-partial { background: var(--fpop-partial); }
-.fpop__strip-seg.is-unavailable { background: var(--fpop-unavailable); }
-.fpop__strip-seg.is-unsure { background: var(--fpop-unsure); }
 
 /* Leaflet wraps popup content in its own chrome; tighten that up so
    the card above reads as the whole popup rather than sitting in a box. */
