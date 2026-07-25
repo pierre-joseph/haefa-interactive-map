@@ -88,8 +88,8 @@ export const SERVICE_CATEGORIES: ServiceCategory[] = [
     id: "ncd",
     label: "Chronic Diseases",
     fields: [
-      { key: "Asthma_COPD", label: "Asthma/COPD" },
-      { key: "CVD_Risk_Assessment", label: "Heart Risk" },
+      { key: "Asthma_COPD", label: "Asthma and COPD" },
+      { key: "CVD_Risk_Assessment", label: "Cardiovascular Disease Risk" },
       { key: "Diabetes", label: "Diabetes" },
       { key: "Hypertension", label: "Hypertension" },
       { key: "NCD_Clinic", label: "NCD Clinic" },
@@ -108,16 +108,16 @@ export const SERVICE_CATEGORIES: ServiceCategory[] = [
     fields: [
       { key: "Antenatal_Care", label: "Prenatal Care" },
       { key: "BEmOC", label: "Emergency Birth Care" },
-      { key: "EPI", label: "Immunization" },
+      { key: "EPI", label: "Immunization (EPI)" },
       { key: "IMCI_under_5", label: "Under-5 Illness Protocol (IMCI)" },
-      { key: "Management_of_Children_Diseases", label: "General Child Illness Care" },
+      { key: "Management_of_Children_Diseases", label: "Child Disease Management" },
     ],
   },
   {
     id: "mental-health",
     label: "Mental Health",
     fields: [
-      { key: "Mental_Disorder_Management", label: "Mental Health Care" },
+      { key: "Mental_Disorder_Management", label: "Mental Disorder Management" },
       { key: "Pyschological_First_Aid", label: "Psychological First Aid" },
     ],
   },
