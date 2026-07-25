@@ -28,7 +28,7 @@ export type FacilityRecord = {
   "Number of Maternity Beds"?: BedCount | Blank;
   Tuberculosis?: SpecialtyResponse | Blank;
   Basic_Lab?: SpecialtyResponse | Blank;
-  Basic_X_Ray?: SpecialtyResponse | Blank;
+  Basic_X_Ray?: SpecialtyResponse | Blank; 
   Hemodialysis_Unit?: SpecialtyResponse | Blank;
   Lab_Secondary?: SpecialtyResponse | Blank;
   Lab_Tertiary?: SpecialtyResponse | Blank;
