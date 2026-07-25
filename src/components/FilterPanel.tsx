@@ -1,6 +1,6 @@
-import { useMemo } from "react";
+import { useMemo, useState } from "react";
 import type { FacilityRecord } from "./FacilityPopup";
-import { serviceFields } from "./FacilityPopup";
+import { SERVICE_CATEGORIES } from "./FacilityPopup";
 import ChecklistSection from "./Checklist";
 import "./FilterPanel.css";
 
@@ -33,6 +33,7 @@ const FilterPanel = ({ facilities, filters, onChange }: Props) => {
   const agencies = useMemo(() => uniqueValues(facilities, "Implementing Agency"), [facilities]).sort((a, b) => a.localeCompare(b));
   const camps = useMemo(() => uniqueValues(facilities, "Camp Name"), [facilities]);
   const types = ["Primary Health Center", "Secondary Health Facility", "Health Post", "Other specialised"];
+  const [openCategory, setOpenCategory] = useState<string | null>(null);
   
   const toggleCamp = (key: string) => {
     const present = new Set(filters.camps);
@@ -127,15 +128,31 @@ const FilterPanel = ({ facilities, filters, onChange }: Props) => {
           onToggle={toggleCamp}
         />
       </div>
-
+      
       <div className="filter-panel__group">
-        <ChecklistSection
-          title="Facility Services"
-          selectedCount={filters.services.length}
-          items={serviceFields.map((service) => ({ value: service.key, label: service.label }))}
-          selectedValues={filters.services}
-          onToggle={toggleService}
-        />
+        <details className="filter-panel__services">
+          <summary className="filter-panel__services-summary">
+            <span>Facility Services</span>
+            <span className="filter-panel__services-summary__count">
+              {filters.services.length > 0 ? `${filters.services.length} selected` : "Any"}
+            </span>
+          </summary>
+
+          <div className="filter-panel__services-body">
+            {SERVICE_CATEGORIES.map((category) => (
+              <ChecklistSection
+                key={category.id}
+                title={category.label}
+                selectedCount={filters.services.filter((s) => category.fields.some((f) => f.key === s)).length}
+                items={category.fields.map((field) => ({ value: field.key as string, label: field.label }))}
+                selectedValues={filters.services}
+                onToggle={toggleService}
+                isOpen={openCategory === category.id}
+                onOpenChange={(open) => setOpenCategory(open ? category.id : null)}
+              />
+            ))}
+          </div>
+        </details>
       </div>
 
       <div className="filter-panel__actions">

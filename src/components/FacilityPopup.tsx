@@ -92,7 +92,7 @@ export const SERVICE_CATEGORIES: ServiceCategory[] = [
       { key: "CVD_Risk_Assessment", label: "Heart Risk" },
       { key: "Diabetes", label: "Diabetes" },
       { key: "Hypertension", label: "Hypertension" },
-      { key: "NCD_Clinic", label: "Chronic Disease Clinic" },
+      { key: "NCD_Clinic", label: "NCD Clinic" },
     ],
   },
   {
@@ -109,8 +109,8 @@ export const SERVICE_CATEGORIES: ServiceCategory[] = [
       { key: "Antenatal_Care", label: "Prenatal Care" },
       { key: "BEmOC", label: "Emergency Birth Care" },
       { key: "EPI", label: "Immunization" },
-      { key: "IMCI_under_5", label: "Under-5 Care" },
-      { key: "Management_of_Children_Diseases", label: "Child Illness" },
+      { key: "IMCI_under_5", label: "Under-5 Illness Protocol (IMCI)" },
+      { key: "Management_of_Children_Diseases", label: "General Child Illness Care" },
     ],
   },
   {
@@ -118,7 +118,7 @@ export const SERVICE_CATEGORIES: ServiceCategory[] = [
     label: "Mental Health",
     fields: [
       { key: "Mental_Disorder_Management", label: "Mental Health Care" },
-      { key: "Pyschological First Aid", label: "Psychological First Aid" },
+      { key: "Pyschological_First_Aid", label: "Psychological First Aid" },
     ],
   },
   {
@@ -131,8 +131,6 @@ export const SERVICE_CATEGORIES: ServiceCategory[] = [
     ],
   },
 ];
-
-export const serviceFields: ServiceField[] = SERVICE_CATEGORIES.flatMap((c) => c.fields);
 
 const RESPONSE_RANK: Record<SpecialtyResponse, number> = {
   Available: 0,
