@@ -1,39 +1,42 @@
 import { BedDouble, Hospital, Cross, Syringe } from "lucide-react";
+import { useTranslation } from 'react-i18next';
 import "./MapLegend.css";
 
 const MapLegend = () => {
+  const { t } = useTranslation();
+
   const legendItems = [
     {
-      type: 'Primary Health Center',
+      type: t('mapLegend.types.primaryHealthCenter.title'),
       color: '#2563eb',
       Icon: BedDouble,
-      description: 'Frontline outpatient and routine care'
+      description: t('mapLegend.types.primaryHealthCenter.description')
       },
     {
-      type: 'Secondary Health Facility',
+      type: t('mapLegend.types.secondaryHealthFacility.title'),
       color: '#dc2626',
       Icon: Hospital,
-      description: 'Higher-acuity care and inpatient services'
+      description: t('mapLegend.types.secondaryHealthFacility.description')
     },
     {
-      type: 'Health Post',
+      type: t('mapLegend.types.healthPost.title'),
       color: '#16a34a',
       Icon: Cross,
-      description: 'Community-level access point'
+      description: t('mapLegend.types.healthPost.description')
     },
     {
-      type: 'Specialized Clinic',
+      type: t('mapLegend.types.specializedClinic.title'),
       color: '#ea580c',
       Icon: Syringe,
-      description: 'Targeted services such as NCD or specialty care'
+      description: t('mapLegend.types.specializedClinic.description')
     },
   ];
 
   return (
     <div className="legend-container">
       <div className="legend-header">
-        <p className="legend-kicker">Map key</p>
-        <h4 className="legend-title">Facility types</h4>
+        <p className="legend-kicker">{t('mapLegend.title')}</p>
+        <h4 className="legend-title">{t('mapLegend.subtitle')}</h4>
       </div>
 
       <div className="legend-list">

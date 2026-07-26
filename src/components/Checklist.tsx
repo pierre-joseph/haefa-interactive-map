@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import "./Checklist.css";
 
 type ChecklistItem = {
@@ -25,6 +26,7 @@ const ChecklistSection = ({
   onOpenChange,
 }: ChecklistSectionProps) => {
   const isControlled = isOpen !== undefined;
+  const { t } = useTranslation();
 
   return (
     <details
@@ -35,7 +37,7 @@ const ChecklistSection = ({
       <summary className="checklist__options-summary">
         <span>{title}</span>
         <span className="checklist__options-summary__count">
-          {selectedCount > 0 ? `${selectedCount} selected` : "Any"}
+          {selectedCount > 0 ? t("filterPanel.selectedCount", { count: selectedCount }) : t("filterPanel.any")}
         </span>
       </summary>
 

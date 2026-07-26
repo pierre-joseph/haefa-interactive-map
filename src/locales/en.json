@@ -1,0 +1,174 @@
+{
+    "appHeader": {
+        "title": "HAEFA Interactive Referral Map",
+        "description": "This interactive referral map supports the work of HAEFA with Rohingya refugees and other forcibly displaced communities in Bangladesh. It visualizes healthcare facilities and health clinics in the Kutupalong-Balukhali Megacamp Region and their available resources. This map is used to support referrals and coordination of care for patients in need of specialized services.",
+        "learnMore": "Learn more at ",
+        "linkText": "haefa.org"
+    },
+    "map": {
+        "attribution": "&copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors, tiles courtesy of <a href=\"https://www.hotosm.org/\" target=\"_blank\" rel=\"noreferrer\">Humanitarian OpenStreetMap Team</a>"
+    },
+    "mapLegend": {
+        "title": "Map Key",
+        "subtitle": "Facility Types",
+        "types": {
+            "primaryHealthCenter": {
+                "title": "Primary Health Center",
+                "description": "Frontline outpatient and routine care"
+            },
+            "secondaryHealthFacility": {
+                "title": "Secondary Health Facility",
+                "description": "Higher-acuity care and inpatient services"
+            },
+            "healthPost": {
+                "title": "Health Post",
+                "description": "Community-level access point"
+            },
+            "specializedClinic": {
+                "title": "Specialized Clinic",
+                "description": "Targeted services such as NCD or specialty care"
+            }
+        }
+    },
+    "facilityTypes": {
+        "Primary Health Center": "Primary Health Center",
+        "Secondary Health Facility": "Secondary Health Facility",
+        "Health Post": "Health Post",
+        "Other specialised": "Other specialised"
+    },
+    "filterPanel": {
+        "title": "Filter Facilities",
+        "subtitle": "Refine by text, location, and services.",
+        "search": "Search",
+        "searchPlaceholder": "Search for facilities...",
+        "name": "Facility Name",
+        "agency": "Implementing Agency",
+        "type": "Facility Types",
+        "camp": "Facility Camps",
+        "services": "Facility Services",
+        "clearFilters": "Clear Filters",
+        "any": "Any",
+        "selectedCount": "{{count, banglaNumber}} selected"
+    },
+    "serviceCategories": {
+        "diagnostics": {
+            "label": "Diagnostics & Lab",
+            "fields": {
+                "Basic_Lab": "Basic Lab",
+                "Basic_X_Ray": "X-Ray",
+                "Lab_Secondary": "Secondary Lab",
+                "Lab_Tertiary": "Tertiary Lab",
+                "Hemodialysis_Unit": "Hemodialysis"
+            }
+        },
+        "outpatient-emergency": {
+            "label": "Outpatient & Emergency",
+            "fields": {
+                "Outpatient_Primary": "Outpatient Primary Care",
+                "Outpatient_Secondary": "Outpatient Secondary Care",
+                "WHO_Basic_Emergency": "Emergency Care",
+                "Referral_Acceptance_and_Capacity": "Referrals"
+            }
+        },
+        "ncd": {
+            "label": "Chronic Diseases",
+            "fields": {
+                "Asthma_COPD": "Asthma and COPD",
+                "CVD_Risk_Assessment": "Cardiovascular Disease Risk",
+                "Diabetes": "Diabetes",
+                "Hypertension": "Hypertension",
+                "NCD_Clinic": "NCD Clinic"
+            }
+        },  
+        "infectious": {
+            "label": "Infectious Disease",
+            "fields": {
+                "Tuberculosis": "Tuberculosis"
+            }
+        },  
+        "maternal-child": {
+            "label": "Maternal & Child",
+            "fields": {
+                "Antenatal_Care": "Prenatal Care",
+                "BEmOC": "Emergency Birth Care",
+                "EPI": "Immunization (EPI)",
+                "IMCI_under_5": "Under-5 Illness Protocol (IMCI)",
+                "Management_of_Children_Diseases": "Child Disease Management"
+            }
+        },
+        "mental-health": {
+            "label": "Mental Health",
+            "fields": {
+                "Mental_Disorder_Management": "Mental Disorder Management",
+                "Pyschological_First_Aid": "Psychological First Aid"    
+            }
+        },
+        "rehab": {
+            "label": "Rehabilitation",
+            "fields": {
+                "Inpatient_Acute_Rehab": "Acute Rehab",
+                "Outpatient_Rehab": "Outpatient Rehab",
+                "Prosthetics_Orthotics": "Prosthetics"
+            }
+        }
+    },
+    "facilityPopup": {
+        "ariaLabel": "Facility details",
+        "tabs": {
+            "overview": "Overview",
+            "capacity": "Capacity",
+            "services": "Specialties"
+        },
+        "overview": {
+            "agency": "Agency",
+            "hours": "Hours",
+            "camp": "Camp",
+            "block": "Block",
+            "coordinates": "Coordinates",
+            "structure": "Structure",
+            "targetPopulation": "Target population",
+            "disabilityAccess": "Disability access"
+        },
+        "capacity": {
+            "inpatientBeds": "Inpatient beds",
+            "icuBeds": "ICU beds",
+            "maternityBeds": "Maternity beds",
+            "floodRisk": "Flood risk",
+            "landRisk": "Land risk"
+        },
+        "emptyServices": "No specialty data recorded for this facility."
+    },
+    "status": {
+        "Functional": "Functional",
+        "Non Functional": "Non Functional",
+        "Under Construction": "Under Construction"
+    },
+    "specialtyResponse": {
+        "Available": "Available",
+        "Partially Available": "Partially Available",
+        "Unsure": "Unsure",
+        "Not Normally Available": "Not Normally Available"
+    },
+    "specialtyResponseShort": {
+        "Available": "Available",
+        "Partially Available": "Partial",
+        "Unsure": "Unsure",
+        "Not Normally Available": "Unavailable"
+    },
+    "structureType": {
+        "Transitional": "Transitional",
+        "Durable": "Durable",
+        "Temporary": "Temporary"
+    },
+    "targetPopulation": {
+        "Refugee": "Refugee",
+        "Both": "Both",
+        "Host Community": "Host Community"
+    },
+    "yesNo": {
+        "Yes": "Yes",
+        "No": "No", 
+        "unknown": "Unknown",
+        "notProvided": "Not provided"
+    }     
+}

@@ -1,4 +1,6 @@
 import { useMemo, useState } from "react";
+import { useTranslation } from "react-i18next";
+import { formatNumber } from "./FormatNumber";
 import "./FacilityPopup.css";
 
 export type SpecialtyResponse = "Available" | "Not Normally Available" | "Partially Available" | "Unsure";
@@ -154,17 +156,6 @@ const STATUS_META: Record<string, { className: string }> = {
 
 const isBlank = (value: unknown) => value === undefined || value === null || value === "" || value === "( )";
 
-const formatValue = (value: string | number | undefined) => {
-  if (isBlank(value)) return "Unknown";
-  return String(value);
-};
-
-const formatBeds = (value: string | number | undefined) => {
-  if (isBlank(value)) return "Unknown";
-  if (value === "Not normally provided") return "Not provided";
-  return String(value);
-};
-
 const getRiskClass = (value: YesNo | "( )" | Blank) => {
   if (value === "Yes") return "is-unavailable";
   if (value === "No") return "is-available";
@@ -172,8 +163,21 @@ const getRiskClass = (value: YesNo | "( )" | Blank) => {
 };
 
 const FacilityPopup = ({ facility }: FacilityPopupProps) => {
-  const [activeTab, setActiveTab] = useState<"overview" | "services" | "capacity">("overview");
+  const { t, i18n } = useTranslation(); 
 
+  const formatValue = (value: string | number | undefined) => {
+  if (isBlank(value)) return t('yesNo.unknown');
+    return String(value);
+  };
+
+  const formatBeds = (value: string | number | undefined) => {
+    if (isBlank(value)) return t('yesNo.unknown');
+    if (value === "Not normally provided") return t('yesNo.notProvided');
+    if (typeof value === "number") return formatNumber(value, i18n.language);
+    return String(value);
+  };
+  
+  const [activeTab, setActiveTab] = useState<"overview" | "services" | "capacity">("overview");
   const groupedServices = useMemo(() => {
     return SERVICE_CATEGORIES.map((cat) => ({
       id: cat.id,
@@ -196,23 +200,23 @@ const FacilityPopup = ({ facility }: FacilityPopupProps) => {
       <div className="fpop__header">
         <div className="fpop__eyebrow">
           <span className="fpop__code">{formatValue(facility["Block Name"])}</span>
-          <span className={`fpop__pill ${statusMeta.className}`}>{formatValue(facility.Status)}</span>
+          <span className={`fpop__pill ${statusMeta.className}`}>{t(`status.${status}`)}</span>
         </div>
         <h3 className="fpop__title">{formatValue(facility["Facility Name"])}</h3>
         <p className="fpop__subtitle">
-          {formatValue(facility["Facility Type"])} · {formatValue(facility["Implementing Agency"])}
+          {t(`facilityTypes.${facility["Facility Type"]}`)} · {formatValue(facility["Implementing Agency"])}
         </p>
       </div>
 
-      <div className="fpop__tabs" role="tablist" aria-label="Facility details">
+      <div className="fpop__tabs" role="tablist" aria-label={t('facilityPopup.ariaLabel')}>
         <button
           type="button"
           role="tab"
           aria-selected={activeTab === "overview"}
-          className={activeTab === "overview" ? "is-active" : ""}
+          className={activeTab === "overview" ? "is-active" : ""} 
           onClick={() => setActiveTab("overview")}
         >
-          Overview
+          {t('facilityPopup.tabs.overview')}
         </button>
         <button
           type="button"
@@ -221,7 +225,7 @@ const FacilityPopup = ({ facility }: FacilityPopupProps) => {
           className={activeTab === "capacity" ? "is-active" : ""}
           onClick={() => setActiveTab("capacity")}
         >
-          Capacity
+          {t('facilityPopup.tabs.capacity')}
         </button>
         <button
           type="button"
@@ -230,7 +234,8 @@ const FacilityPopup = ({ facility }: FacilityPopupProps) => {
           className={activeTab === "services" ? "is-active" : ""}
           onClick={() => setActiveTab("services")}
         >
-          Specialties{services.length > 0 ? ` (${availableCount}/${services.length})` : ""}
+          {t('facilityPopup.tabs.services')}
+          {services.length > 0 ? ` (${formatNumber(availableCount, i18n.language)}/${formatNumber(services.length, i18n.language)})` : ""}
         </button>
       </div>
 
@@ -238,76 +243,40 @@ const FacilityPopup = ({ facility }: FacilityPopupProps) => {
         <div className="fpop__content">
           <dl className="fpop__grid">
             <div>
-              <dt>Agency</dt>
+              <dt>{t('facilityPopup.overview.agency')}</dt>
               <dd>{formatValue(facility["Implementing Agency"])}</dd>
             </div>
             <div>
-              <dt>Hours</dt>
+              <dt>{t('facilityPopup.overview.hours')}</dt>
               <dd>{formatValue(facility.Hours)}</dd>
             </div>
             <div>
-              <dt>Camp</dt>
+              <dt>{t('facilityPopup.overview.camp')}</dt>
               <dd>{formatValue(facility["Camp Name"])}</dd>
             </div>
             <div>
-              <dt>Block</dt>
+              <dt>{t('facilityPopup.overview.block')}</dt>
               <dd>{formatValue(facility["Block Name"])}</dd>
             </div>
             <div>
-              <dt>Coordinates</dt>
+              <dt>{t('facilityPopup.overview.coordinates')}</dt>
               <dd>
                 {formatValue(facility.Latitude)}, {formatValue(facility.Longitude)}
               </dd>
             </div>
             <div>
-              <dt>Structure</dt>
-              <dd>{formatValue(facility["Structure Type"])}</dd>
+              <dt>{t('facilityPopup.overview.structure')}</dt>
+              <dd>{t(`structureType.${facility["Structure Type"]}`)}</dd>
             </div>
             <div>
-              <dt>Target population</dt>
-              <dd>{formatValue(facility["Target Population"])}</dd>
+              <dt>{t('facilityPopup.overview.targetPopulation')}</dt>
+              <dd>{t(`targetPopulation.${facility["Target Population"]}`)}</dd>
             </div>
             <div>
-              <dt>Disability access</dt>
-              <dd>{formatValue(facility["Disability Access"])}</dd>
+              <dt>{t('facilityPopup.overview.disabilityAccess')}</dt>
+              <dd>{t(`yesNo.${formatValue(facility["Disability Access"])}`)}</dd>
             </div>
           </dl>
-        </div>
-      )}
-
-      {activeTab === "services" && (
-        <div className="fpop__content">
-          {groupedServices.length === 0 ? (
-            <p className="fpop__empty">No specialty data recorded for this facility.</p>
-          ) : (
-            groupedServices.map((cat) => (
-              <details className="fpop__category" key={cat.id}>
-                <summary>
-                  <span className="fpop__category-title">
-                    <svg className="fpop__category-chevron" width="8" height="8" viewBox="0 0 8 8" aria-hidden="true">
-                      <path d="M1 0.5 L6 4 L1 7.5" fill="none" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" />
-                    </svg>
-                    {cat.label}
-                  </span>
-                  <span className="fpop__category-count">{cat.items.length}</span>
-                </summary>
-                <ul className="fpop__services">
-                  {cat.items.map(({ key, label, value }) => (
-                    <li key={key}>
-                      <span
-                        className={`fpop__dot ${RESPONSE_META[value as SpecialtyResponse].className}`}
-                        aria-hidden="true"
-                      />
-                      <span className="fpop__service-label">{label}</span>
-                      <span className={`fpop__tag ${RESPONSE_META[value as SpecialtyResponse].className}`}>
-                        {RESPONSE_META[value as SpecialtyResponse].short}
-                      </span>
-                    </li>
-                  ))}
-                </ul>
-              </details>
-            ))
-          )}
         </div>
       )}
 
@@ -316,36 +285,74 @@ const FacilityPopup = ({ facility }: FacilityPopupProps) => {
           <div className="fpop__stats">
             <div className="fpop__stat">
               <span className="fpop__stat-value">{formatBeds(facility["Number of Inpatient Beds"])}</span>
-              <span className="fpop__stat-label">Inpatient beds</span>
+              <span className="fpop__stat-label">{t('facilityPopup.capacity.inpatientBeds')}</span>
             </div>
             <div className="fpop__stat">
               <span className="fpop__stat-value">{formatBeds(facility["Intensive Care Unit (ICU) beds"])}</span>
-              <span className="fpop__stat-label">ICU beds</span>
+              <span className="fpop__stat-label">{t('facilityPopup.capacity.icuBeds')}</span>
             </div>
             <div className="fpop__stat">
               <span className="fpop__stat-value">{formatBeds(facility["Number of Maternity Beds"])}</span>
-              <span className="fpop__stat-label">Maternity beds</span>
+              <span className="fpop__stat-label">{t('facilityPopup.capacity.maternityBeds')}</span>
             </div>
           </div>
 
           <dl className="fpop__grid">
             <div>
-              <dt>Flood risk</dt>
+              <dt>{t('facilityPopup.capacity.floodRisk')}</dt>
               <dd>
                 <span className={`fpop__tag ${getRiskClass(facility.RiskFlood)}`}>
-                  {formatValue(facility.RiskFlood)}
+                  {t(`yesNo.${formatValue(facility.RiskFlood)}`)}
                 </span>
               </dd>
             </div>
             <div>
-              <dt>Land risk</dt>
+              <dt>{t('facilityPopup.capacity.landRisk')}</dt>
               <dd>
                 <span className={`fpop__tag ${getRiskClass(facility.RiskLand)}`}>
-                  {formatValue(facility.RiskLand)}
+                  {t(`yesNo.${formatValue(facility.RiskLand)}`)}
                 </span>
               </dd>
             </div>
           </dl>
+        </div>
+      )}
+
+      {activeTab === "services" && (
+        <div className="fpop__content">
+          {groupedServices.length === 0 ? (
+            <p className="fpop__empty">{t('facilityPopup.emptyServices')}</p>
+          ) : (
+            groupedServices.map((cat) => (
+              <details className="fpop__category" key={cat.id}>
+                <summary>
+                  <span className="fpop__category-title">
+                    <svg className="fpop__category-chevron" width="8" height="8" viewBox="0 0 8 8" aria-hidden="true">
+                      <path d="M1 0.5 L6 4 L1 7.5" fill="none" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" />
+                    </svg>
+                     {t(`serviceCategories.${cat.id}.label`, { defaultValue: cat.label })}
+                  </span>
+                  <span className="fpop__category-count">{formatNumber(cat.items.length, i18n.language)}</span>
+                </summary>
+                <ul className="fpop__services">
+                  {cat.items.map(({ key, label, value }) => (
+                    <li key={key}>
+                      <span
+                        className={`fpop__dot ${RESPONSE_META[value as SpecialtyResponse].className}`}
+                        aria-hidden="true"
+                      />
+                      <span className="fpop__service-label">
+                        {t(`serviceCategories.${cat.id}.fields.${key as string}`, { defaultValue: label })}
+                      </span>
+                      <span className={`fpop__tag ${RESPONSE_META[value as SpecialtyResponse].className}`}>
+                        {t(`specialtyResponseShort.${value as SpecialtyResponse}`, { defaultValue: RESPONSE_META[value as SpecialtyResponse].short })}
+                      </span>
+                    </li>
+                  ))}
+                </ul>
+              </details>
+            ))
+          )}
         </div>
       )}
     </div>

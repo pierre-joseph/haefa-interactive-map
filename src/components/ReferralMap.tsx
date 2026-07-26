@@ -10,6 +10,7 @@ import FacilityPopup from "./FacilityPopup";
 import type { FacilityRecord, FacilityType, Blank } from "./FacilityPopup";
 import MapLegend from "./MapLegend";
 import FilterPanel from "./FilterPanel";
+import { useTranslation } from 'react-i18next';
 import "./ReferralMap.css";
 
 const getMarkerStyle = (type: FacilityType | Blank) => {
@@ -152,6 +153,8 @@ const ReferralMap = () => {
     }
   };
 
+  const { t } = useTranslation();
+
   return (
     <div className="referral-map__wrap">
       <FilterPanel facilities={facilities} filters={filters} onChange={setFilters} />
@@ -163,7 +166,7 @@ const ReferralMap = () => {
         className="referral-map"
       >
         <TileLayer
-          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, tiles courtesy of <a href="https://www.hotosm.org/" target="_blank" rel="noreferrer">Humanitarian OpenStreetMap Team</a>'
+          attribution={t('map.attribution')}
           url="https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png"
         />
 

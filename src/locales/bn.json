@@ -1,0 +1,174 @@
+{
+  "appHeader": {
+    "title": "HAEFA ইন্টারেক্টিভ রেফারেল ম্যাপ",
+    "description": "এই ইন্টারেক্টিভ রেফারেল ম্যাপটি বাংলাদেশে রোহিঙ্গা শরণার্থী এবং অন্যান্য জোরপূর্বক বাস্তুচ্যুত জনগোষ্ঠীর সাথে হেফা (HAEFA)-এর কাজকে সমর্থন করে। এটি কুতুপালং-বালুখালী মেগাক্যাম্প অঞ্চলের স্বাস্থ্যসেবা কেন্দ্র ও স্বাস্থ্য ক্লিনিকসমূহ এবং तादेर उপলব्ध संस्थानगुलिके दृश्यमान करे। एই म्यापटि विशेषायित सेवার प्रয়োজন এমন রোগীদের রেফারেল এবং समन্বিত চিকিত্সা সহায়তা প্রদানের জন্য ব্যবহৃত হয়।",
+    "learnMore": "বিস্তারিত জানুন এখন: ",
+    "linkText": "haefa.org"
+  }, 
+  "map": {
+        "attribution": "&copy; <a href=\"https://www.openstreetmap.org/copyright\">ওপেনস্ট্রিটম্যাপ</a> অবদানকারীগণ, টাইলস সৌজন্যে: <a href=\"https://www.hotosm.org/\" target=\"_blank\" rel=\"noreferrer\">হিউম্যানিটেরিয়ান ওপেনস্ট্রিটম্যাপ টিম</a>"
+    },
+   "mapLegend": {
+        "title": "মানচিত্র সংকেত",
+        "subtitle": "সুবিধার ধরন",
+        "types": {
+        "primaryHealthCenter": {
+            "title": "প্রাথমিক স্বাস্থ্যকেন্দ্র",
+            "description": "সম্মুখসারির বহির্বিভাগ ও নিয়মিত সেবা"
+        },
+        "secondaryHealthFacility": {
+            "title": "মাধ্যমিক স্বাস্থ্য সুবিধা",
+            "description": "উচ্চতর জটিলতার সেবা ও ভর্তি রোগীর সেবা"
+        },
+        "healthPost": {
+            "title": "স্বাস্থ্য পোস্ট",
+            "description": "সম্প্রদায় পর্যায়ের সেবাপ্রাপ্তির স্থান"
+        },
+        "specializedClinic": {
+            "title": "বিশেষায়িত ক্লিনিক",
+            "description": "এনসিডি বা বিশেষায়িত সেবার মতো লক্ষ্যভিত্তিক সেবা"
+        }
+        }
+    }, 
+    "facilityTypes": {
+        "Primary Health Center": "প্রাথমিক স্বাস্থ্যকেন্দ্র",
+        "Secondary Health Facility": "মাধ্যমিক স্বাস্থ্য সুবিধা",
+        "Health Post": "স্বাস্থ্য পোস্ট",
+        "Other specialised": "অন্যান্য বিশেষায়িত"
+    },
+    "filterPanel": {
+        "title": "সুবিধা ফিল্টার করুন",
+        "subtitle": "টেক্সট, অবস্থান এবং সেবার মাধ্যমে অনুসন্ধান সংকুচিত করুন।",
+        "search": "অনুসন্ধান",
+        "searchPlaceholder": "সুবিধা অনুসন্ধান করুন...",
+        "name": "সুবিধার নাম",
+        "agency": "বাস্তবায়নকারী সংস্থা",
+        "type": "সুবিধার ধরন",
+        "camp": "সুবিধার ক্যাম্প",
+        "services": "সুবিধার সেবাসমূহ",
+        "clearFilters": "ফিল্টার মুছুন",
+        "any": "যেকোনো",
+        "selectedCount": "{{count, banglaNumber}}টি নির্বাচিত"
+    }, 
+    "serviceCategories": {
+        "diagnostics": {
+            "label": "রোগ নির্ণয় ও ল্যাব",
+            "fields": {
+            "Basic_Lab": "মৌলিক ল্যাব",
+            "Basic_X_Ray": "এক্স-রে",
+            "Lab_Secondary": "মাধ্যমিক ল্যাব",
+            "Lab_Tertiary": "তৃতীয় স্তরের ল্যাব",
+            "Hemodialysis_Unit": "হেমোডায়ালাইসিস"
+            }
+        },
+        "outpatient-emergency": {
+            "label": "বহির্বিভাগ ও জরুরি সেবা",
+            "fields": {
+            "Outpatient_Primary": "বহির্বিভাগ প্রাথমিক সেবা",
+            "Outpatient_Secondary": "বহির্বিভাগ মাধ্যমিক সেবা",
+            "WHO_Basic_Emergency": "জরুরি সেবা",
+            "Referral_Acceptance_and_Capacity": "রেফারেল"
+            }
+        },
+        "ncd": {
+            "label": "দীর্ঘমেয়াদি রোগ",
+            "fields": {
+            "Asthma_COPD": "হাঁপানি ও সিওপিডি",
+            "CVD_Risk_Assessment": "হৃদরোগের ঝুঁকি নিরূপণ",
+            "Diabetes": "ডায়াবেটিস",
+            "Hypertension": "উচ্চ রক্তচাপ",
+            "NCD_Clinic": "এনসিডি ক্লিনিক"
+            }
+        },
+        "infectious": {
+            "label": "সংক্রামক রোগ",
+            "fields": {
+            "Tuberculosis": "যক্ষ্মা"
+            }
+        },
+        "maternal-child": {
+            "label": "মা ও শিশু স্বাস্থ্য",
+            "fields": {
+            "Antenatal_Care": "প্রসবপূর্ব সেবা",
+            "BEmOC": "জরুরি প্রসব সেবা",
+            "EPI": "টিকাদান (ইপিআই)",
+            "IMCI_under_5": "৫ বছরের কম বয়সীদের অসুস্থতা প্রোটোকল (আইএমসিআই)",
+            "Management_of_Children_Diseases": "শিশু রোগ ব্যবস্থাপনা"
+            }
+        },
+        "mental-health": {
+            "label": "মানসিক স্বাস্থ্য",
+            "fields": {
+            "Mental_Disorder_Management": "মানসিক রোগ ব্যবস্থাপনা",
+            "Pyschological_First_Aid": "মানসিক প্রাথমিক সহায়তা"
+            }
+        },
+        "rehab": {
+            "label": "পুনর্বাসন",
+            "fields": {
+            "Inpatient_Acute_Rehab": "তীব্র পুনর্বাসন",
+            "Outpatient_Rehab": "বহির্বিভাগ পুনর্বাসন",
+            "Prosthetics_Orthotics": "কৃত্রিম অঙ্গ"
+            }
+        }
+    }, 
+    "facilityPopup": {
+        "ariaLabel": "সুবিধার বিস্তারিত তথ্য",
+        "tabs": {
+            "overview": "সাধারণ তথ্য",
+            "capacity": "ধারণক্ষমতা",
+            "services": "বিশেষায়িত সেবা"
+        },
+        "overview": {
+            "agency": "সংস্থা",
+            "hours": "সময়সূচি",
+            "camp": "ক্যাম্প",
+            "block": "ব্লক",
+            "coordinates": "স্থানাঙ্ক",
+            "structure": "কাঠামো",
+            "targetPopulation": "লক্ষ্য জনগোষ্ঠী",
+            "disabilityAccess": "প্রতিবন্ধী প্রবেশাধিকার"
+        },
+        "capacity": {
+            "inpatientBeds": "ভর্তি রোগীর শয্যা",
+            "icuBeds": "আইসিইউ শয্যা",
+            "maternityBeds": "প্রসূতি শয্যা",
+            "floodRisk": "বন্যার ঝুঁকি",
+            "landRisk": "ভূমিধসের ঝুঁকি"
+        },
+        "emptyServices": "এই সুবিধার জন্য কোনো বিশেষায়িত সেবার তথ্য নথিভুক্ত নেই।"
+    },
+    "status": {
+        "Functional": "কার্যকর",
+        "Non Functional": "অকার্যকর",
+        "Under Construction": "নির্মাণাধীন"
+    },
+    "specialtyResponse": {
+        "Available": "উপলব্ধ",
+        "Partially Available": "আংশিক উপলব্ধ",
+        "Unsure": "অনিশ্চিত",
+        "Not Normally Available": "সাধারণত উপলব্ধ নয়"
+    },
+    "specialtyResponseShort": {
+        "Available": "উপলব্ধ",
+        "Partially Available": "আংশিক",
+        "Unsure": "অনিশ্চিত",
+        "Not Normally Available": "অনুপলব্ধ"
+    },
+    "structureType": {
+        "Transitional": "অস্থায়ী রূপান্তরিত",
+        "Durable": "স্থায়ী",
+        "Temporary": "সাময়িক"
+    },
+    "targetPopulation": {
+        "Refugee": "শরণার্থী",
+        "Both": "উভয়",
+        "Host Community": "স্বাগতিক সম্প্রদায়"
+    },
+    "yesNo": {
+        "Yes": "হ্যাঁ",
+        "No": "না",
+        "unknown": "অজানা",
+        "notProvided": "সরবরাহ করা হয় না"
+    }
+}
