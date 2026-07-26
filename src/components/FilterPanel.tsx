@@ -3,7 +3,6 @@ import type { FacilityRecord } from "./FacilityPopup";
 import { SERVICE_CATEGORIES } from "./FacilityPopup";
 import ChecklistSection from "./Checklist";
 import { useTranslation } from 'react-i18next';
-import { formatNumber } from "./FormatNumber";
 import "./FilterPanel.css";
 
 type Filters = {
@@ -72,7 +71,7 @@ const FilterPanel = ({ facilities, filters, onChange }: Props) => {
     onChange({ ...filters, services: Array.from(present) });
   };
 
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
   return (
     <aside className="filter-panel" aria-label="Facility filters">
