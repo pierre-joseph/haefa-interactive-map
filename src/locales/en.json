@@ -34,7 +34,7 @@
         "Primary Health Center": "Primary Health Center",
         "Secondary Health Facility": "Secondary Health Facility",
         "Health Post": "Health Post",
-        "Other specialised": "Other specialised"
+        "Specialized Clinic": "Specialized Clinic"
     },
     "filterPanel": {
         "title": "Filter Facilities",
@@ -92,8 +92,11 @@
                 "Antenatal_Care": "Prenatal Care",
                 "BEmOC": "Emergency Birth Care",
                 "EPI": "Immunization (EPI)",
-                "IMCI_under_5": "Under-5 Illness Protocol (IMCI)",
-                "Management_of_Children_Diseases": "Child Disease Management"
+                "Integrated Management of Childhood Illness (IMCI under 5)": "Under-5 Illness Protocol (IMCI)",
+                "Management_of_Children_Diseases": "Child Disease Management", 
+                "Growth Monitoring at Primary Care Level": "Growth Monitoring at Primary Care Level", 
+                "Infant & Young Child Feeding (IEC on IYCF)": "Infant & Young Child Feeding (IEC on IYCF)",
+                "Skilled care during childbirth": "Skilled care during childbirth"
             }
         },
         "mental-health": {

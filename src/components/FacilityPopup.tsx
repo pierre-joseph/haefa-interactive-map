@@ -4,13 +4,14 @@ import { formatNumber } from "./FormatNumber";
 import "./FacilityPopup.css";
 
 export type SpecialtyResponse = "Available" | "Not Normally Available" | "Partially Available" | "Unsure";
-export type FacilityType = "Primary Health Center" | "Secondary Health Facility" | "Health Post" | "Other specialised";
+export type FacilityType = "Primary Health Center" | "Secondary Health Facility" | "Health Post" | "Specialized Clinic";
 export type YesNo = "Yes" | "No";
 export type BedCount = number | "Not normally provided";
 export type Blank = "" | undefined;
 
+export type FacilityServiceStatus = SpecialtyResponse | Blank;
+
 export type FacilityRecord = {
-  [key: string]: string | number | undefined;
   "Facility ID"?: number | string;
   "Facility Name"?: string;
   "Implementing Agency"?: string;
@@ -28,32 +29,36 @@ export type FacilityRecord = {
   "Number of Inpatient Beds"?: BedCount | Blank;
   "Intensive Care Unit (ICU) beds"?: BedCount | Blank;
   "Number of Maternity Beds"?: BedCount | Blank;
-  Tuberculosis?: SpecialtyResponse | Blank;
-  Basic_Lab?: SpecialtyResponse | Blank;
-  Basic_X_Ray?: SpecialtyResponse | Blank; 
-  Hemodialysis_Unit?: SpecialtyResponse | Blank;
-  Lab_Secondary?: SpecialtyResponse | Blank;
-  Lab_Tertiary?: SpecialtyResponse | Blank;
-  Outpatient_Secondary?: SpecialtyResponse | Blank;
-  Outpatient_Primary?: SpecialtyResponse | Blank;
-  Radiology_Unit?: SpecialtyResponse | Blank;
-  Referral_Acceptance_and_Capacity?: SpecialtyResponse | Blank;
-  WHO_Basic_Emergency?: SpecialtyResponse | Blank;
-  Antenatal_Care?: SpecialtyResponse | Blank;
-  Asthma_COPD?: SpecialtyResponse | Blank;
-  CVD_Risk_Assessment?: SpecialtyResponse | Blank;
-  Diabetes?: SpecialtyResponse | Blank;
-  Hypertension?: SpecialtyResponse | Blank;
-  Inpatient_Acute_Rehab?: SpecialtyResponse | Blank;
-  Mental_Disorder_Management?: SpecialtyResponse | Blank;
-  NCD_Clinic?: SpecialtyResponse | Blank;
-  Outpatient_Rehab?: SpecialtyResponse | Blank;
-  Prosthetics_Orthotics?: SpecialtyResponse | Blank;
-  Pyschological_First_Aid?: SpecialtyResponse | Blank;
-  EPI?: SpecialtyResponse | Blank;
-  IMCI_under_5?: SpecialtyResponse | Blank;
-  Management_of_Children_Diseases?: SpecialtyResponse | Blank;
-  BEmOC?: SpecialtyResponse | Blank;
+  Tuberculosis?: FacilityServiceStatus;
+  Basic_Lab?: FacilityServiceStatus;
+  Basic_X_Ray?: FacilityServiceStatus;
+  Hemodialysis_Unit?: FacilityServiceStatus;
+  Lab_Secondary?: FacilityServiceStatus;
+  Lab_Tertiary?: FacilityServiceStatus;
+  Outpatient_Secondary?: FacilityServiceStatus;
+  Outpatient_Primary?: FacilityServiceStatus;
+  Radiology_Unit?: FacilityServiceStatus;
+  Referral_Acceptance_and_Capacity?: FacilityServiceStatus;
+  WHO_Basic_Emergency?: FacilityServiceStatus;
+  Antenatal_Care?: FacilityServiceStatus;
+  Asthma_COPD?: FacilityServiceStatus;
+  CVD_Risk_Assessment?: FacilityServiceStatus;
+  Diabetes?: FacilityServiceStatus;
+  Hypertension?: FacilityServiceStatus;
+  Inpatient_Acute_Rehab?: FacilityServiceStatus;
+  Mental_Disorder_Management?: FacilityServiceStatus;
+  NCD_Clinic?: FacilityServiceStatus;
+  Outpatient_Rehab?: FacilityServiceStatus;
+  Prosthetics_Orthotics?: FacilityServiceStatus;
+  "Skilled care during childbirth"?: FacilityServiceStatus;
+  "Growth Monitoring at Primary Care Level"?: FacilityServiceStatus;
+  "Infant & Young Child Feeding (IEC on IYCF)"?: FacilityServiceStatus;
+  "Integrated Management of Childhood Illness (IMCI under 5)"?: FacilityServiceStatus;
+  "Pyschological First Aid"?: FacilityServiceStatus;
+  EPI?: FacilityServiceStatus;
+  IMCI_under_5?: FacilityServiceStatus;
+  Management_of_Children_Diseases?: FacilityServiceStatus;
+  BEmOC?: FacilityServiceStatus;
   Hours?: string | Blank;
 };
 
@@ -61,7 +66,39 @@ type FacilityPopupProps = {
   facility: FacilityRecord;
 };
 
-type ServiceField = { key: keyof FacilityRecord; label: string };
+export type FacilityServiceKey =
+  | "Tuberculosis"
+  | "Basic_Lab"
+  | "Basic_X_Ray"
+  | "Hemodialysis_Unit"
+  | "Lab_Secondary"
+  | "Lab_Tertiary"
+  | "Outpatient_Secondary"
+  | "Outpatient_Primary"
+  | "Radiology_Unit"
+  | "Referral_Acceptance_and_Capacity"
+  | "WHO_Basic_Emergency"
+  | "Antenatal_Care"
+  | "Asthma_COPD"
+  | "CVD_Risk_Assessment"
+  | "Diabetes"
+  | "Hypertension"
+  | "Inpatient_Acute_Rehab"
+  | "Mental_Disorder_Management"
+  | "NCD_Clinic"
+  | "Outpatient_Rehab"
+  | "Prosthetics_Orthotics"
+  | "Skilled care during childbirth"
+  | "Growth Monitoring at Primary Care Level"
+  | "Infant & Young Child Feeding (IEC on IYCF)"
+  | "Integrated Management of Childhood Illness (IMCI under 5)"
+  | "Pyschological First Aid"
+  | "EPI"
+  | "IMCI_under_5"
+  | "Management_of_Children_Diseases"
+  | "BEmOC";
+
+type ServiceField = { key: FacilityServiceKey; label: string };
 type ServiceCategory = { id: string; label: string; fields: ServiceField[] };
 
 export const SERVICE_CATEGORIES: ServiceCategory[] = [
@@ -109,9 +146,12 @@ export const SERVICE_CATEGORIES: ServiceCategory[] = [
     label: "Maternal & Child",
     fields: [
       { key: "Antenatal_Care", label: "Prenatal Care" },
+      { key: "Skilled care during childbirth", label: "Skilled care during childbirth" },
       { key: "BEmOC", label: "Emergency Birth Care" },
       { key: "EPI", label: "Immunization (EPI)" },
-      { key: "IMCI_under_5", label: "Under-5 Illness Protocol (IMCI)" },
+      { key: "Growth Monitoring at Primary Care Level", label: "Growth Monitoring at Primary Care Level" }, 
+      { key: "Infant & Young Child Feeding (IEC on IYCF)", label: "Infant & Young Child Feeding (IEC on IYCF)" },
+      { key: "Integrated Management of Childhood Illness (IMCI under 5)", label: "Under-5 Illness Protocol (IMCI)" },
       { key: "Management_of_Children_Diseases", label: "Child Disease Management" },
     ],
   },
@@ -120,7 +160,7 @@ export const SERVICE_CATEGORIES: ServiceCategory[] = [
     label: "Mental Health",
     fields: [
       { key: "Mental_Disorder_Management", label: "Mental Disorder Management" },
-      { key: "Pyschological_First_Aid", label: "Psychological First Aid" },
+      { key: "Pyschological First Aid", label: "Psychological First Aid" },
     ],
   },
   {
@@ -183,7 +223,7 @@ const FacilityPopup = ({ facility }: FacilityPopupProps) => {
       id: cat.id,
       label: cat.label,
       items: cat.fields
-        .map(({ key, label }) => ({ key, label, value: facility[key] as SpecialtyResponse | Blank }))
+        .map(({ key, label }) => ({ key, label, value: facility[key] as FacilityServiceStatus }))
         .filter((s) => !isBlank(s.value))
         .sort((a, b) => RESPONSE_RANK[a.value as SpecialtyResponse] - RESPONSE_RANK[b.value as SpecialtyResponse]),
     })).filter((cat) => cat.items.length > 0);

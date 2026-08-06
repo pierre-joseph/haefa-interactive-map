@@ -1,4 +1,4 @@
-import { useMemo, useState, useRef } from "react";
+import { useMemo, useRef, useState } from "react";
 import { renderToStaticMarkup } from "react-dom/server";
 import { BedDouble, Hospital, Cross, Syringe } from "lucide-react";
 import { MapContainer, Marker, Popup, TileLayer, GeoJSON } from "react-leaflet";
@@ -99,6 +99,48 @@ const matchesLocation = (facility: FacilityRecord, camps: string[]) => {
   return true;
 };
 
+const coordinateKey = (latitude: number, longitude: number) => `${latitude},${longitude}`;
+
+const OverlapMarkerPopup = ({ facilities }: { facilities: FacilityRecord[] }) => {
+  const [activeIndex, setActiveIndex] = useState(0);
+  const activeFacility = facilities[Math.min(activeIndex, facilities.length - 1)];
+
+  return (
+    <div className="facility-popup-shell facility-popup-shell--overlap">
+      <div className="facility-overlap">
+        <div className="facility-overlap__header">
+          <div>
+            <p className="facility-overlap__kicker">{facilities.length} facilities</p>
+            <h4 className="facility-overlap__title">Share this exact location</h4>
+          </div>
+        </div>
+
+        <div className="facility-overlap__list" role="list" aria-label="Facilities at this location">
+          {facilities.map((facility, index) => (
+            <button
+              key={`${String(facility["Facility Name"] ?? "facility")}-${index}`}
+              type="button"
+              className={`facility-overlap__item ${index === activeIndex ? "is-active" : ""}`}
+              onClick={() => setActiveIndex(index)}
+            >
+              <span className="facility-overlap__name">{String(facility["Facility Name"] ?? "Unnamed facility")}</span>
+              <span className="facility-overlap__meta">
+                {String(facility["Facility Type"] ?? "")}
+              </span>
+            </button>
+          ))}
+        </div>
+      </div>
+
+      {activeFacility && (
+        <div className="facility-overlap__detail">
+          <FacilityPopup facility={activeFacility} />
+        </div>
+      )}
+    </div>
+  );
+};
+
 const ReferralMap = () => {
   const [filters, setFilters] = useState(initialFilters);
   const geoJsonRef = useRef<L.GeoJSON | null>(null);
@@ -119,6 +161,27 @@ const ReferralMap = () => {
       return true;
     });
   }, [facilities, filters]);
+
+  const facilityGroups = useMemo(() => {
+    const groups = new Map<string, FacilityRecord[]>();
+
+    filteredFacilities.forEach((facility) => {
+      const latitude = Number(facility.Latitude);
+      const longitude = Number(facility.Longitude);
+      const key = coordinateKey(latitude, longitude);
+      const bucket = groups.get(key) ?? [];
+      bucket.push(facility);
+      groups.set(key, bucket);
+    });
+
+    return Array.from(groups.values()).map((group) =>
+      group.slice().sort((left, right) => {
+        const leftName = String(left["Facility Name"] ?? "");
+        const rightName = String(right["Facility Name"] ?? "");
+        return leftName.localeCompare(rightName);
+      })
+    );
+  }, [filteredFacilities]);
 
 
   const getCampStyle = (feature: any) => {
@@ -178,18 +241,33 @@ const ReferralMap = () => {
           onEachFeature={onEachCamp}
         />
 
-        {filteredFacilities.map((markerData, index) => {
-          const latitude = Number(markerData.Latitude);
-          const longitude = Number(markerData.Longitude);
+        {facilityGroups.map((group, index) => {
+          const facility = group[0];
+          const latitude = Number(facility.Latitude);
+          const longitude = Number(facility.Longitude);
+          const isOverlapping = group.length > 1;
 
           return (
-            <Marker 
-              key={`${markerData["Facility Name"] || "facility"}-${index}`} 
-              position={[latitude, longitude]} 
-              icon={createCustomIcon(markerData["Facility Type"])}
+            <Marker
+              key={`${coordinateKey(latitude, longitude)}-${index}`}
+              position={[latitude, longitude]}
+              icon={createCustomIcon(facility["Facility Type"])}
+              riseOnHover
+              zIndexOffset={isOverlapping ? 1000 : 0}
             >
-              <Popup>
-                <FacilityPopup facility={markerData} />
+              <Popup
+                className="facility-popup-shell"
+                autoPan
+                keepInView
+                autoPanPadding={L.point(24, 24)}
+                maxWidth={380}
+                minWidth={240}
+              >
+                {isOverlapping ? (
+                  <OverlapMarkerPopup facilities={group} />
+                ) : (
+                  <FacilityPopup facility={facility} />
+                )}
               </Popup>
             </Marker>
           );

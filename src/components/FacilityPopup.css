@@ -12,8 +12,11 @@
   --fpop-unsure: #475569;
   --fpop-unsure-bg: #f1f5f9;
 
-  width: 334px;
-  max-width: 84vw;
+  width: min(360px, calc(100vw - 24px));
+  max-width: min(360px, calc(100vw - 24px));
+  max-height: min(72vh, 560px);
+  display: flex;
+  flex-direction: column;
   background: var(--fpop-paper);
   color: var(--fpop-ink);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
@@ -98,7 +101,8 @@
 
 .fpop__content {
   padding: 14px 16px 16px;
-  max-height: 250px;
+  flex: 1 1 auto;
+  min-height: 0;
   overflow-y: auto;
 }
 
@@ -301,4 +305,120 @@
 }
 .leaflet-popup-tip {
   background: var(--fpop-paper);
+}
+
+.facility-popup-shell .leaflet-popup-content-wrapper {
+  padding: 0;
+}
+
+.facility-popup-shell .leaflet-popup-content {
+  margin: 0;
+  width: auto !important;
+}
+
+.facility-popup-shell--overlap {
+  display: grid;
+  gap: 10px;
+}
+
+.facility-overlap {
+  padding: 12px 12px 0;
+}
+
+.facility-overlap__header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.facility-overlap__kicker {
+  margin: 0 0 3px;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--fpop-muted);
+}
+
+.facility-overlap__title {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+.facility-overlap__list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  max-height: 180px;
+  overflow-y: auto;
+  padding-right: 4px;
+}
+
+.facility-overlap__item {
+  width: 100%;
+  text-align: left;
+  border: 1px solid var(--fpop-border);
+  border-radius: 12px;
+  padding: 8px 10px;
+  background: #fff;
+  cursor: pointer;
+}
+
+.facility-overlap__item.is-active {
+  border-color: #2563eb;
+  background: rgba(37, 99, 235, 0.06);
+}
+
+.facility-overlap__name {
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--fpop-ink);
+}
+
+.facility-overlap__meta {
+  display: block;
+  margin-top: 2px;
+  font-size: 10px;
+  color: var(--fpop-muted);
+}
+
+.facility-overlap__detail {
+  border-top: 1px solid var(--fpop-border);
+}
+
+@media (max-width: 640px) {
+  .fpop {
+    width: min(92vw, 360px);
+    max-width: min(92vw, 360px);
+    max-height: min(76vh, 520px);
+  }
+
+  .fpop__title {
+    font-size: 15px;
+  }
+
+  .fpop__subtitle {
+    font-size: 11px;
+  }
+
+  .fpop__tabs {
+    flex-wrap: wrap;
+  }
+
+  .fpop__tabs button {
+    font-size: 11px;
+    padding: 8px 6px;
+  }
+
+  .fpop__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .fpop__stats {
+    grid-template-columns: 1fr;
+  }
 }

@@ -33,7 +33,7 @@ const FilterPanel = ({ facilities, filters, onChange }: Props) => {
   const names = useMemo(() => uniqueValues(facilities, "Facility Name"), [facilities]).sort((a, b) => a.localeCompare(b));
   const agencies = useMemo(() => uniqueValues(facilities, "Implementing Agency"), [facilities]).sort((a, b) => a.localeCompare(b));
   const camps = useMemo(() => uniqueValues(facilities, "Camp Name"), [facilities]);
-  const types = ["Primary Health Center", "Secondary Health Facility", "Health Post", "Other specialised"];
+  const types = ["Primary Health Center", "Secondary Health Facility", "Health Post", "Specialized Clinic"];
   const [openCategory, setOpenCategory] = useState<string | null>(null);
   
   const toggleCamp = (key: string) => {

@@ -34,7 +34,7 @@
         "Primary Health Center": "প্রাথমিক স্বাস্থ্যকেন্দ্র",
         "Secondary Health Facility": "মাধ্যমিক স্বাস্থ্য সুবিধা",
         "Health Post": "স্বাস্থ্য পোস্ট",
-        "Other specialised": "অন্যান্য বিশেষায়িত"
+        "Specialized Clinic": "বিশেষায়িত ক্লিনিক"
     },
     "filterPanel": {
         "title": "সুবিধা ফিল্টার করুন",
@@ -89,26 +89,29 @@
         "maternal-child": {
             "label": "মা ও শিশু স্বাস্থ্য",
             "fields": {
-            "Antenatal_Care": "প্রসবপূর্ব সেবা",
-            "BEmOC": "জরুরি প্রসব সেবা",
-            "EPI": "টিকাদান (ইপিআই)",
-            "IMCI_under_5": "৫ বছরের কম বয়সীদের অসুস্থতা প্রোটোকল (আইএমসিআই)",
-            "Management_of_Children_Diseases": "শিশু রোগ ব্যবস্থাপনা"
+                "Antenatal_Care": "প্রসবপূর্ব সেবা",
+                "BEmOC": "জরুরি প্রসব সেবা",
+                "EPI": "টিকাদান (ইপিআই)",
+                "Integrated Management of Childhood Illness (IMCI under 5)": "৫ বছরের কম বয়সীদের অসুস্থতা প্রোটোকল (আইএমসিআই)",
+                "Management_of_Children_Diseases": "শিশু রোগ ব্যবস্থাপনা", 
+                "Growth Monitoring at Primary Care Level": "প্রাথমিক স্বাস্থ্যসেবা পর্যায়ে বৃদ্ধি পর্যবেক্ষণ", 
+                "Infant & Young Child Feeding (IEC on IYCF)": "শিশু ও কিশোরদের খাদ্যাভ্যাস (আইওয়াইসিএফ-এ আইইসি)",
+                "Skilled care during childbirth": "প্রসবের সময় দক্ষ যত্ন"
             }
         },
         "mental-health": {
             "label": "মানসিক স্বাস্থ্য",
             "fields": {
-            "Mental_Disorder_Management": "মানসিক রোগ ব্যবস্থাপনা",
-            "Pyschological_First_Aid": "মানসিক প্রাথমিক সহায়তা"
+                "Mental_Disorder_Management": "মানসিক রোগ ব্যবস্থাপনা",
+                "Pyschological_First_Aid": "মানসিক প্রাথমিক সহায়তা"
             }
         },
         "rehab": {
             "label": "পুনর্বাসন",
             "fields": {
-            "Inpatient_Acute_Rehab": "তীব্র পুনর্বাসন",
-            "Outpatient_Rehab": "বহির্বিভাগ পুনর্বাসন",
-            "Prosthetics_Orthotics": "কৃত্রিম অঙ্গ"
+                "Inpatient_Acute_Rehab": "তীব্র পুনর্বাসন",
+                "Outpatient_Rehab": "বহির্বিভাগ পুনর্বাসন",
+                "Prosthetics_Orthotics": "কৃত্রিম অঙ্গ"
             }
         }
     }, 
