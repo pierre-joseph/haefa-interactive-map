@@ -15,14 +15,14 @@ import "./ReferralMap.css";
 
 const getMarkerStyle = (type: FacilityType | Blank) => {
   switch (type) {
+    case 'Health Post':
+      return { color: '#16a34a', Icon: Cross };
     case 'Primary Health Center':
       return { color: '#2563eb', Icon: BedDouble };
     case 'Secondary Health Facility':
       return { color: '#dc2626', Icon: Hospital };
-    case 'Health Post':
-      return { color: '#16a34a', Icon: Cross };
     default:
-      return { color: '#ea580c', Icon: Syringe };
+      return { color: '#9966CB', Icon: Syringe };
   }
 };
 

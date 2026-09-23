@@ -7,6 +7,12 @@ const MapLegend = () => {
 
   const legendItems = [
     {
+      type: t('mapLegend.types.healthPost.title'),
+      color: '#16a34a',
+      Icon: Cross,
+      description: t('mapLegend.types.healthPost.description')
+    },
+    {
       type: t('mapLegend.types.primaryHealthCenter.title'),
       color: '#2563eb',
       Icon: BedDouble,
@@ -19,14 +25,8 @@ const MapLegend = () => {
       description: t('mapLegend.types.secondaryHealthFacility.description')
     },
     {
-      type: t('mapLegend.types.healthPost.title'),
-      color: '#16a34a',
-      Icon: Cross,
-      description: t('mapLegend.types.healthPost.description')
-    },
-    {
       type: t('mapLegend.types.specializedClinic.title'),
-      color: '#ea580c',
+      color: '#9966CB',
       Icon: Syringe,
       description: t('mapLegend.types.specializedClinic.description')
     },
